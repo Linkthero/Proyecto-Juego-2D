@@ -1,4 +1,5 @@
 {
+    "version": 1,
     "name": "InputSystem_Actions",
     "maps": [
         {
@@ -24,7 +25,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Attack",
+                    "name": "Atack",
                     "type": "Button",
                     "id": "6c2ab1b8-8984-453a-af3d-a3c78ae1679a",
                     "expectedControlType": "",
@@ -82,6 +83,15 @@
                     "type": "Button",
                     "id": "641cd816-40e6-41b4-8c3d-04687c349290",
                     "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Disparo",
+                    "type": "Button",
+                    "id": "29a58a51-cab8-46d6-aee6-f18d91f519d4",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -216,7 +226,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -227,7 +237,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -238,7 +248,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -249,7 +259,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -260,7 +270,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -271,7 +281,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -282,7 +292,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -293,7 +303,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -304,7 +314,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -315,7 +325,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -326,7 +336,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Attack",
+                    "action": "Atack",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -481,6 +491,17 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1415140a-2343-4f53-b2c8-7318f982f6f0",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "Disparo",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
