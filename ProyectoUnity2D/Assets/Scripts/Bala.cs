@@ -17,6 +17,7 @@ public class Bala : MonoBehaviour
 
     [Header("Efectos")]
     [SerializeField] private GameObject efectoImpacto;
+    private Disparo disparo; //1 UP, 2 RIGHT, 3 DOWN, 4 LEFT
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -44,10 +45,11 @@ public class Bala : MonoBehaviour
             {
                 sonidoExplosion.Play();
             }
-            Datos.instance.AddPoints(collision.gameObject.GetComponent<EnemyMove>().puntos);
-            Datos.instance.MostrarPuntosDinamicos(collision.gameObject.GetComponent<EnemyMove>().puntos, collision.transform.position);
+
+            //Datos.instance.AddPoints(collision.gameObject.GetComponent<EnemyMove>().puntos);
+            //Datos.instance.MostrarPuntosDinamicos(collision.gameObject.GetComponent<EnemyMove>().puntos, collision.transform.position);
             Destroy(collision.gameObject);
-            Destroy(gameObject, 0.2f);
+            Destroy(gameObject, 0.1f);
         }
     }
 }

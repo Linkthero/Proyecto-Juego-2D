@@ -43,4 +43,9 @@ public class PlayerMovement : MonoBehaviour
             mirandoDerecha = false;
         }
     }
+
+    public void Parar()
+    {
+        GetComponent<PlayerInput>().enabled = false;
+    }
 }
