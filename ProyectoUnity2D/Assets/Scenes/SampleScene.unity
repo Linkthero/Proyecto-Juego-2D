@@ -189,6 +189,34 @@ MonoBehaviour:
   puntoDisparoDerecha: {fileID: 1902001511}
   puntoDisparoIzquierda: {fileID: 1053159156}
   tiempoDisparo: 0.5
+--- !u!114 &90526010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90525999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 247c513dbe10dc74daa57fd0e63b712e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyCollider
+  tiempoEspera: 1
+  sonidoMuerte: {fileID: 0}
+--- !u!114 &90526014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90525999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cba47a519ee0594f99b5c54cf3df310, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VidaJugador
+  corazones: {fileID: 0}
+  vidasActuales: 0
 --- !u!1 &137451094
 GameObject:
   m_ObjectHideFlags: 0
@@ -11748,6 +11776,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 90526003}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2092607704
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2092607706}
+  - component: {fileID: 2092607705}
+  m_Layer: 0
+  m_Name: Datos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2092607705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092607704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6886a898a71f7514fbbea2ccc4103c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Datos
+  maxVidas: 3
+  vidas: 0
+--- !u!4 &2092607706
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092607704}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.14399, y: 0.38688, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4691269985621571552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11760,6 +11834,10 @@ PrefabInstance:
       propertyPath: m_Constraints
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 4918734443321512287, guid: f77b09fac1b6d5940b184fa41bc08f48, type: 3}
+      propertyPath: input
+      value: 
+      objectReference: {fileID: 372838066}
     - target: {fileID: 4951029754180214128, guid: f77b09fac1b6d5940b184fa41bc08f48, type: 3}
       propertyPath: m_Name
       value: Player
@@ -11829,6 +11907,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4951029754180214128, guid: f77b09fac1b6d5940b184fa41bc08f48, type: 3}
       insertIndex: -1
       addedObject: {fileID: 90526009}
+    - targetCorrespondingSourceObject: {fileID: 4951029754180214128, guid: f77b09fac1b6d5940b184fa41bc08f48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 90526010}
+    - targetCorrespondingSourceObject: {fileID: 4951029754180214128, guid: f77b09fac1b6d5940b184fa41bc08f48, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 90526014}
   m_SourcePrefab: {fileID: 100100000, guid: f77b09fac1b6d5940b184fa41bc08f48, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -11840,3 +11924,4 @@ SceneRoots:
   - {fileID: 430636571}
   - {fileID: 1089259369}
   - {fileID: 1241158698}
+  - {fileID: 2092607706}

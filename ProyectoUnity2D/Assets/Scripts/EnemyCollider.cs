@@ -33,23 +33,24 @@ public class EnemyCollider : MonoBehaviour
     private IEnumerator PararYReiniciar()
     {
         inmune = true;
+        playerMove.Parar();
+        animator.SetTrigger("Muerte");
         //Datos.instance.vidas--;
         playerLifes.PierdeVida();
         //sonidoMuerte.Play();
         //pa.Muerte();
-        animator.SetTrigger("Muerte");
-
-
+        
         if (Datos.instance.vidas <= 0)
         {
-            playerMove.Parar();
+            
             yield return new WaitForSecondsRealtime(tiempoEspera);
-            //Datos.instance.vidas = 3;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene("FinJuego");
         }
         else
         {
             yield return new WaitForSecondsRealtime(tiempoEspera);
+            Datos.instance.SetVidas(Datos.instance.maxVidas);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             inmune = false;
         }
 

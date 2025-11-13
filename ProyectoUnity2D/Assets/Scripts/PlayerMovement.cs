@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 movement;
     private Rigidbody2D rb;
     private Animator animator;
+
 
     private const string horizontal = "Horizontal";
     private const string vertical = "Vertical";
@@ -46,6 +48,13 @@ public class PlayerMovement : MonoBehaviour
 
     public void Parar()
     {
-        GetComponent<PlayerInput>().enabled = false;
+        moveSpeed = 0;
+        GameObject[] arrayEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
+        foreach (var item in arrayEnemigos)
+        {
+            item.GetComponent<Enemy>().speed = 0;
+        }
+        //movement = Vector2.zero;
+        //rb = null;
     }
 }
