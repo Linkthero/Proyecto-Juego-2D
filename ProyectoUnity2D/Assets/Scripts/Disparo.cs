@@ -8,10 +8,19 @@ public class Disparo : MonoBehaviour
 {
     [Header("Disparo")]
     [SerializeField] private GameObject prefabBala;
+
+    [Header("Puntos de disparo")]
     [SerializeField] private Transform puntoDisparoArriba;
     [SerializeField] private Transform puntoDisparoAbajo;
     [SerializeField] private Transform puntoDisparoDerecha;
     [SerializeField] private Transform puntoDisparoIzquierda;
+
+    //Disparos diagonales
+    [SerializeField] private Transform puntoDisparoDerUp;
+    [SerializeField] private Transform puntoDisparoDerDown;
+    [SerializeField] private Transform puntoDisparoIzqUp;
+    [SerializeField] private Transform puntoDisparoIzqDown;
+
     private PlayerMovement playerMove;
     private Animator animator;
     [SerializeField] public float tiempoDisparo = 0.5f;
@@ -28,7 +37,37 @@ public class Disparo : MonoBehaviour
     {
         if(Time.time > disparonext)
         {
-            if (Input.GetKey(KeyCode.UpArrow))
+            //DISPARO DIAGONAL
+            if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.UpArrow))
+            {
+                animator.SetTrigger("DisparoRight");
+                //Debug.Log("Hago disparo diagonal");
+                disparonext = Time.time + tiempoDisparo;
+                StartCoroutine(CoorDisparo(KeyCode.RightArrow, KeyCode.UpArrow));
+            }
+            else if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.DownArrow))
+            {
+                animator.SetTrigger("DisparoRight");
+                //Debug.Log("Hago disparo diagonal");
+                disparonext = Time.time + tiempoDisparo;
+                StartCoroutine(CoorDisparo(KeyCode.RightArrow, KeyCode.DownArrow));
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.DownArrow))
+            {
+                animator.SetTrigger("DisparoLeft");
+                //Debug.Log("Hago disparo diagonal");
+                disparonext = Time.time + tiempoDisparo;
+                StartCoroutine(CoorDisparo(KeyCode.LeftArrow, KeyCode.DownArrow));
+            }
+            else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.UpArrow))
+            {
+                animator.SetTrigger("DisparoLeft");
+                //Debug.Log("Hago disparo diagonal");
+                disparonext = Time.time + tiempoDisparo;
+                StartCoroutine(CoorDisparo(KeyCode.LeftArrow, KeyCode.UpArrow));
+            }
+            //Disparo direcciones
+            else if (Input.GetKey(KeyCode.UpArrow))
             {
                 animator.SetTrigger("DisparoUp");
                 disparonext = Time.time + tiempoDisparo;
@@ -74,10 +113,25 @@ public class Disparo : MonoBehaviour
     //    StartCoroutine("CoorDisparo");
     //}
 
-    private IEnumerator CoorDisparo(KeyCode k)
+    private IEnumerator CoorDisparo(KeyCode k, KeyCode j = KeyCode.None)
     {
         yield return new WaitForSecondsRealtime(0.2f);
-        if (k == KeyCode.UpArrow)
+        if (k == KeyCode.RightArrow && j == KeyCode.UpArrow) //DISPAROS DIAGONALES
+        {
+            Instantiate(prefabBala, puntoDisparoDerUp.position, puntoDisparoDerUp.rotation);
+        }
+        else if (k == KeyCode.RightArrow && j == KeyCode.DownArrow)
+        {
+            Instantiate(prefabBala, puntoDisparoDerDown.position, puntoDisparoDerDown.rotation);
+        }
+        else if (k == KeyCode.LeftArrow && j == KeyCode.DownArrow)
+        {
+            Instantiate(prefabBala, puntoDisparoIzqDown.position, puntoDisparoIzqDown.rotation);
+        }
+        else if (k == KeyCode.LeftArrow && j == KeyCode.UpArrow)
+        {
+            Instantiate(prefabBala, puntoDisparoIzqUp.position, puntoDisparoIzqUp.rotation);
+        } else if (k == KeyCode.UpArrow)
         {
             Instantiate(prefabBala, puntoDisparoArriba.position, puntoDisparoArriba.rotation);
         }
@@ -91,6 +145,6 @@ public class Disparo : MonoBehaviour
         } else if (k == KeyCode.RightArrow)
         {
             Instantiate(prefabBala, puntoDisparoDerecha.position, puntoDisparoDerecha.rotation);
-        }
+        } 
     }
 }

@@ -8,11 +8,14 @@ public class Enemy : MonoBehaviour
     bool isLive = true;
     private Rigidbody2D rb;
     private SpriteRenderer spriter;
+    public Animator animator;
 
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         spriter = GetComponent<SpriteRenderer>();
+        target = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -31,5 +34,11 @@ public class Enemy : MonoBehaviour
         if (!isLive)
             return;
         spriter.flipX = target.position.x < rb.position.x;
+    }
+
+    public void DestroyEnemy()
+    {
+        animator.Play("Hit");
+        Destroy(gameObject);
     }
 }

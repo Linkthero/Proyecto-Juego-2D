@@ -15,8 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private const string lastVertical = "LastVertical";
 
     public bool mirandoDerecha = true;
-
-    private void Awake()
+    private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();

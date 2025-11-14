@@ -168,7 +168,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e047af24b6811a40b6247f9edb6a5dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bala
-  velocidad: 3
+  velocidad: 6
   tiempoVida: 5
   sonidoDisparo: {fileID: 0}
   sonidoExplosion: {fileID: 0}

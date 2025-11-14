@@ -48,7 +48,10 @@ public class Bala : MonoBehaviour
 
             //Datos.instance.AddPoints(collision.gameObject.GetComponent<EnemyMove>().puntos);
             //Datos.instance.MostrarPuntosDinamicos(collision.gameObject.GetComponent<EnemyMove>().puntos, collision.transform.position);
-            Destroy(collision.gameObject);
+
+            //Destroy(collision.gameObject);
+            Datos.instance.AumentaEnemigosMuertos();
+            collision.GetComponent<Enemy>().DestroyEnemy();
             Destroy(gameObject, 0.1f);
         }
     }

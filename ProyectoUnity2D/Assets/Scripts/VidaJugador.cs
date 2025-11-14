@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,9 +7,10 @@ public class VidaJugador : MonoBehaviour
 {
 
     [Header("Imagen")]
-    [SerializeField] private Image corazones;
+    [SerializeField] private TextMeshProUGUI txtVidas;
 
     public int vidasActuales;
+
 
     private void Awake()
     {
@@ -24,6 +26,7 @@ public class VidaJugador : MonoBehaviour
     public void SetVidas(int vidas)
     {
         vidasActuales = vidas;
+        txtVidas.text = "x " + vidasActuales;
     }
 
     public void PierdeVida(int cantidad = 1)

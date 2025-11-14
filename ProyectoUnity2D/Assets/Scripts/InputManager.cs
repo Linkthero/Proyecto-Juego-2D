@@ -7,7 +7,7 @@ public class InputManager : MonoBehaviour
     private PlayerInput playerInput;
     private InputAction moveAction;
 
-    private void Awake()
+    private void Start()
     {
         playerInput = GetComponent<PlayerInput>();
         moveAction = playerInput.actions["Move"];
