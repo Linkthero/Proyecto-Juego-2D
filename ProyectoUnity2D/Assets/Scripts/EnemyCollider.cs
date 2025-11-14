@@ -42,14 +42,15 @@ public class EnemyCollider : MonoBehaviour
         
         if (Datos.instance.vidas <= 0)
         {
-            
+            //carga pantalla de fin de juego   
             yield return new WaitForSecondsRealtime(tiempoEspera);
             SceneManager.LoadScene("FinJuego");
+            inmune =false;
         }
         else
         {
+            //vuelve a cargar el nivel pero con una vida menos
             yield return new WaitForSecondsRealtime(tiempoEspera);
-            Datos.instance.SetVidas(Datos.instance.maxVidas);
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             inmune = false;
         }

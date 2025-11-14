@@ -15,14 +15,10 @@ public class Datos : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            vidas = maxVidas;
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        vidas = maxVidas;
-    }
 
     public int GetVidas()
     {
@@ -34,11 +30,4 @@ public class Datos : MonoBehaviour
         vidas = v;
     }
 
-    
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
