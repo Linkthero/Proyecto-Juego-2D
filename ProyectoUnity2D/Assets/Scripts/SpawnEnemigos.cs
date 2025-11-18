@@ -9,11 +9,9 @@ public class SpawnEnemigos : MonoBehaviour
     //tiempo q pasa para spawnear
     public float timeSpawn = 1;
 
-    //se crea un enemigo cada 3s
-    public float repeatSpawnRate = 3;
+    //se crea un enemigo cada x seg
+    public float repeatSpawnRate;
 
-    [SerializeField] private int numEnemigosOleada;
-    private int numEnemigosSpawn;
 
     //bordes, areas q delimitan
 
@@ -26,28 +24,22 @@ public class SpawnEnemigos : MonoBehaviour
 
     void Start()
     {
+        repeatSpawnRate = (float)Random.Range(5, 10);
         //StartCoroutine(Example());
         InvokeRepeating("SpawnEnemies", timeSpawn, repeatSpawnRate);
     }
 
     public void SpawnEnemies()
     {
-        if (numEnemigosSpawn < numEnemigosOleada)
+        if (Datos.instance.enemigosSpawneados < Datos.instance.nEnemigosOleada1)
         {
             //posicion donde se crea, aleatoria
             Vector3 spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, xRangeRight.position.x), Random.Range(yRangeDown.position.y, yRangeUp.position.y), 0);
 
             int numEnemigo = Random.Range(0, enemies.Length);
             GameObject enemie = Instantiate(enemies[numEnemigo], spawnPosition, gameObject.transform.rotation);
-            numEnemigosSpawn++;
-        }        
-    }
-
-    IEnumerator Example()
-    {
-        print(Time.time);
-        yield return new WaitForSeconds(5);
-        print(Time.time);
+            Datos.instance.enemigosSpawneados++;
+        } 
     }
 
 }

@@ -18,6 +18,7 @@ public class Bala : MonoBehaviour
     [Header("Efectos")]
     [SerializeField] private GameObject efectoImpacto;
     private Disparo disparo; //1 UP, 2 RIGHT, 3 DOWN, 4 LEFT
+    private CircleCollider2D col;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +30,8 @@ public class Bala : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         rb.linearVelocity = transform.right * velocidad;
+        col = GetComponent<CircleCollider2D>();
+        col.enabled = true;
 
         Destroy(gameObject, tiempoVida);
     }
@@ -37,6 +40,7 @@ public class Bala : MonoBehaviour
     {
         if (collision.CompareTag("Enemy"))
         {
+            col.enabled = false;
             if (efectoImpacto != null)
             {
                 Instantiate(efectoImpacto, collision.transform.position, Quaternion.identity);
