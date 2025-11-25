@@ -37,6 +37,13 @@ public class Enemy : MonoBehaviour
         rb.MovePosition(rb.position + nextVec);
         rb.linearVelocity = Vector2.zero;
 
+        if(Datos.instance.powerUpPausaEnemigos)
+        {
+            speed = 0;
+        } else
+        {
+            speed = LastSpeed;
+        }
     }
 
     private void LateUpdate()
@@ -46,22 +53,27 @@ public class Enemy : MonoBehaviour
         spriter.flipX = target.position.x < rb.position.x;
     }
 
-    public void DestroyEnemy()
+    public void DestroyEnemy(float t = 0.16f)
     {
         animator.Play("Hit");
+        Invoke(nameof(Destruir), t);
+    }
+
+    private void Destruir()
+    {
+        Datos.instance.AumentaEnemigosMuertos();
         Destroy(gameObject);
     }
 
-    public void PowerUp()
+    public void PowerUpPausa()
     {
-        speed = 0;
         Datos.instance.powerUpPausaEnemigos = true;
         Invoke(nameof(restaurar), tiempoPowerUp);
     }
 
     private void restaurar()
     {
-        speed = LastSpeed;
         Datos.instance.powerUpPausaEnemigos = false;
     }
+
 }

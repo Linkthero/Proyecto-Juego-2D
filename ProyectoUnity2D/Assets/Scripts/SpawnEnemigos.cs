@@ -10,7 +10,7 @@ public class SpawnEnemigos : MonoBehaviour
     public float timeSpawn = 1;
 
     //se crea un enemigo cada x seg
-    public float repeatSpawnRate;
+    private float repeatSpawnRate;
 
 
     //bordes, areas q delimitan
@@ -39,6 +39,7 @@ public class SpawnEnemigos : MonoBehaviour
             int numEnemigo = Random.Range(0, enemies.Length);
             GameObject enemie = Instantiate(enemies[numEnemigo], spawnPosition, gameObject.transform.rotation);
             Datos.instance.enemigosSpawneados++;
+            Debug.Log("Spawn");
         } 
     }
 

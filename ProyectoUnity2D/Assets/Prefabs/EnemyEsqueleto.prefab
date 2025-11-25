@@ -285,3 +285,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
   speed: 3
   target: {fileID: 0}
+  animator: {fileID: 0}
+  tiempoPowerUp: 5

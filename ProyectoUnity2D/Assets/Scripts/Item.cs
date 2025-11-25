@@ -19,20 +19,12 @@ public class Item : MonoBehaviour
         
     }
 
-    public void PoderDisparoCruz()
+    public void restablecerPoderDisparoCruz()
     {
-
+        Datos.instance.powerUpDisparoCruz = false;
     }
 
-    public void PoderPausa()
-    {
 
-    }
-
-    public void PoderBomba()
-    {
-
-    }
 
     public void PoderVida(VidaJugador vidas)
     {
@@ -50,20 +42,24 @@ public class Item : MonoBehaviour
             }
             else if(tipoPoder == Poder.DisparoCruz)
             {
-                PoderDisparoCruz();
+                collision.GetComponent<Disparo>().PowerUpDisparoCruz();
             }
             else if(tipoPoder == Poder.Pausa)
             {
                 GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
                 foreach (var e in listaEnemigos)
                 {
-                    e.GetComponent<Enemy>().PowerUp();
+                    e.GetComponent<Enemy>().PowerUpPausa();
                 }
-                PoderPausa();
             }
             else if(tipoPoder == Poder.Bomba)
             {
-                PoderBomba();
+                GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
+                foreach (var e in listaEnemigos)
+                {
+                    e.GetComponent<Enemy>().DestroyEnemy(0.21f);
+                    e.GetComponent<Enemy>().animator.Play("explosion");
+                }
             }
             else if(tipoPoder == Poder.Vida)
             {

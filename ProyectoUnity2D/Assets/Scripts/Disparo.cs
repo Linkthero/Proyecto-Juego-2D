@@ -39,60 +39,69 @@ public class Disparo : MonoBehaviour
     {
         if(Time.time > disparonext)
         {
-            //DISPARO DIAGONAL
-            if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.UpArrow))
-            {
-                animator.SetTrigger("DisparoRight");
-                //Debug.Log("Hago disparo diagonal");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.RightArrow, KeyCode.UpArrow));
-            }
-            else if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.DownArrow))
-            {
-                animator.SetTrigger("DisparoRight");
-                //Debug.Log("Hago disparo diagonal");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.RightArrow, KeyCode.DownArrow));
-            }
-            else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.DownArrow))
-            {
-                animator.SetTrigger("DisparoLeft");
-                //Debug.Log("Hago disparo diagonal");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.LeftArrow, KeyCode.DownArrow));
-            }
-            else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.UpArrow))
-            {
-                animator.SetTrigger("DisparoLeft");
-                //Debug.Log("Hago disparo diagonal");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.LeftArrow, KeyCode.UpArrow));
-            }
-            //Disparo direcciones
-            else if (Input.GetKey(KeyCode.UpArrow))
-            {
-                animator.SetTrigger("DisparoUp");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.UpArrow));
-            }
-            else if (Input.GetKey(KeyCode.DownArrow))
+            if(Datos.instance.powerUpDisparoCruz)
             {
                 animator.SetTrigger("DisparoDown");
                 disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.DownArrow));
-            }
-            else if (Input.GetKey(KeyCode.LeftArrow))
+                StartCoroutine(DisparoTodasDir());
+            } else
             {
-                animator.SetTrigger("DisparoLeft");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.LeftArrow));
+                //DISPARO DIAGONAL
+                if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.UpArrow))
+                {
+                    animator.SetTrigger("DisparoRight");
+                    //Debug.Log("Hago disparo diagonal");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.RightArrow, KeyCode.UpArrow));
+                }
+                else if (Input.GetKey(KeyCode.RightArrow) && Input.GetKey(KeyCode.DownArrow))
+                {
+                    animator.SetTrigger("DisparoRight");
+                    //Debug.Log("Hago disparo diagonal");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.RightArrow, KeyCode.DownArrow));
+                }
+                else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.DownArrow))
+                {
+                    animator.SetTrigger("DisparoLeft");
+                    //Debug.Log("Hago disparo diagonal");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.LeftArrow, KeyCode.DownArrow));
+                }
+                else if (Input.GetKey(KeyCode.LeftArrow) && Input.GetKey(KeyCode.UpArrow))
+                {
+                    animator.SetTrigger("DisparoLeft");
+                    //Debug.Log("Hago disparo diagonal");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.LeftArrow, KeyCode.UpArrow));
+                }
+                //Disparo direcciones
+                else if (Input.GetKey(KeyCode.UpArrow))
+                {
+                    animator.SetTrigger("DisparoUp");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.UpArrow));
+                }
+                else if (Input.GetKey(KeyCode.DownArrow))
+                {
+                    animator.SetTrigger("DisparoDown");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.DownArrow));
+                }
+                else if (Input.GetKey(KeyCode.LeftArrow))
+                {
+                    animator.SetTrigger("DisparoLeft");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.LeftArrow));
+                }
+                else if (Input.GetKey(KeyCode.RightArrow))
+                {
+                    animator.SetTrigger("DisparoRight");
+                    disparonext = Time.time + tiempoDisparo;
+                    StartCoroutine(CoorDisparo(KeyCode.RightArrow));
+                }
             }
-            else if (Input.GetKey(KeyCode.RightArrow))
-            {
-                animator.SetTrigger("DisparoRight");
-                disparonext = Time.time + tiempoDisparo;
-                StartCoroutine(CoorDisparo(KeyCode.RightArrow));
-            }
+
         }
     }
     //public void OnDisparo(InputValue value)
@@ -119,12 +128,22 @@ public class Disparo : MonoBehaviour
     {
         tiempoDisparo = tiempoDisparo / 3;
         Invoke(nameof(restaurarDisparo), tiempoPowerUp);      // tiempo durante el que se aplica el power up
+    }
 
+    public void PowerUpDisparoCruz()
+    {
+        Datos.instance.powerUpDisparoCruz = true;
+        Invoke(nameof(restaurarDisparoCruz), tiempoPowerUp);      // tiempo durante el que se aplica el power up
     }
 
     void restaurarDisparo()
     {
         tiempoDisparo = tiempoDisparo * 3;
+    }
+
+    void restaurarDisparoCruz()
+    {
+        Datos.instance.powerUpDisparoCruz = false;
     }
 
     private IEnumerator CoorDisparo(KeyCode k, KeyCode j = KeyCode.None)
@@ -160,5 +179,18 @@ public class Disparo : MonoBehaviour
         {
             Instantiate(prefabBala, puntoDisparoDerecha.position, puntoDisparoDerecha.rotation);
         } 
+    }
+
+    private IEnumerator DisparoTodasDir()
+    {
+        Instantiate(prefabBala, puntoDisparoDerUp.position, puntoDisparoDerUp.rotation);
+        Instantiate(prefabBala, puntoDisparoDerDown.position, puntoDisparoDerDown.rotation);
+        Instantiate(prefabBala, puntoDisparoIzqDown.position, puntoDisparoIzqDown.rotation);
+        Instantiate(prefabBala, puntoDisparoIzqUp.position, puntoDisparoIzqUp.rotation);
+        Instantiate(prefabBala, puntoDisparoArriba.position, puntoDisparoArriba.rotation);
+        Instantiate(prefabBala, puntoDisparoAbajo.position, puntoDisparoAbajo.rotation);
+        Instantiate(prefabBala, puntoDisparoIzquierda.position, puntoDisparoIzquierda.rotation);
+        Instantiate(prefabBala, puntoDisparoDerecha.position, puntoDisparoDerecha.rotation);
+        yield return null;
     }
 }

@@ -19,6 +19,7 @@ public class Datos : MonoBehaviour
     [SerializeField] public int nEnemigosOleada3;
 
     public bool powerUpPausaEnemigos = false;
+    public bool powerUpDisparoCruz = false;
 
     public bool siguienteNivel = false;
 
