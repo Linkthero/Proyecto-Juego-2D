@@ -1,0 +1,6253 @@
+fileFormatVersion: 2
+guid: e8225607cc8f5f54d83ccc11e134e91e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3240621749682809872
+    second: Atlas - copia_0
+  - first:
+      213: -2594233659071355463
+    second: Atlas - copia_1
+  - first:
+      213: 1613233829650174612
+    second: Atlas - copia_2
+  - first:
+      213: 5024801538838402090
+    second: Atlas - copia_3
+  - first:
+      213: 5804820725186755871
+    second: Atlas - copia_4
+  - first:
+      213: -1910204965736057965
+    second: Atlas - copia_5
+  - first:
+      213: -7333395295297489351
+    second: Atlas - copia_6
+  - first:
+      213: 1492769949975759141
+    second: Atlas - copia_7
+  - first:
+      213: 8727574582417744002
+    second: Atlas - copia_8
+  - first:
+      213: -4904723061756792624
+    second: Atlas - copia_9
+  - first:
+      213: 2533632997401679115
+    second: Atlas - copia_10
+  - first:
+      213: -2212614228294229636
+    second: Atlas - copia_11
+  - first:
+      213: 8909104172707691389
+    second: Atlas - copia_12
+  - first:
+      213: 2458642321399798415
+    second: Atlas - copia_13
+  - first:
+      213: -3224537342042068687
+    second: Atlas - copia_14
+  - first:
+      213: 7768882831378320076
+    second: Atlas - copia_15
+  - first:
+      213: -6186676399113882918
+    second: Atlas - copia_16
+  - first:
+      213: -4685240295517424939
+    second: Atlas - copia_17
+  - first:
+      213: -4954210040562401122
+    second: Atlas - copia_18
+  - first:
+      213: -2244934316700012989
+    second: Atlas - copia_19
+  - first:
+      213: -8688037078187193305
+    second: Atlas - copia_20
+  - first:
+      213: -1479282936766040298
+    second: Atlas - copia_21
+  - first:
+      213: -2164777200653987979
+    second: Atlas - copia_22
+  - first:
+      213: -5503614605470116168
+    second: Atlas - copia_23
+  - first:
+      213: -1322658648659655341
+    second: Atlas - copia_24
+  - first:
+      213: 2750515935370013633
+    second: Atlas - copia_25
+  - first:
+      213: 6787810659267629452
+    second: Atlas - copia_26
+  - first:
+      213: -7979939403376647476
+    second: Atlas - copia_27
+  - first:
+      213: 701317203742635033
+    second: Atlas - copia_28
+  - first:
+      213: 49381588853111194
+    second: Atlas - copia_29
+  - first:
+      213: -8591238324887250272
+    second: Atlas - copia_30
+  - first:
+      213: 2647322183566894817
+    second: Atlas - copia_31
+  - first:
+      213: -1674014042135575497
+    second: Atlas - copia_32
+  - first:
+      213: -6621735414244802683
+    second: Atlas - copia_33
+  - first:
+      213: -3251137479880322343
+    second: Atlas - copia_34
+  - first:
+      213: 2478531813702531311
+    second: Atlas - copia_35
+  - first:
+      213: -4330491626482702327
+    second: Atlas - copia_36
+  - first:
+      213: 5135457662967607681
+    second: Atlas - copia_37
+  - first:
+      213: -1360740492576223173
+    second: Atlas - copia_38
+  - first:
+      213: 7863983487015703924
+    second: Atlas - copia_39
+  - first:
+      213: 1799393755162027151
+    second: Atlas - copia_40
+  - first:
+      213: 8564558080310559658
+    second: Atlas - copia_41
+  - first:
+      213: -5125065988753905516
+    second: Atlas - copia_42
+  - first:
+      213: 8165454962691860973
+    second: Atlas - copia_43
+  - first:
+      213: 1980203834831958330
+    second: Atlas - copia_44
+  - first:
+      213: 2283651366157755513
+    second: Atlas - copia_45
+  - first:
+      213: 5998302569615778186
+    second: Atlas - copia_46
+  - first:
+      213: 718545980036818452
+    second: Atlas - copia_47
+  - first:
+      213: -2051468730054904346
+    second: Atlas - copia_48
+  - first:
+      213: -4590066869468794972
+    second: Atlas - copia_49
+  - first:
+      213: -1321449347179866525
+    second: Atlas - copia_50
+  - first:
+      213: 4429674877287389073
+    second: Atlas - copia_51
+  - first:
+      213: 5959184814632282925
+    second: Atlas - copia_52
+  - first:
+      213: 4927163562502437673
+    second: Atlas - copia_53
+  - first:
+      213: 3410195543511666651
+    second: Atlas - copia_54
+  - first:
+      213: -754168030019275889
+    second: Atlas - copia_55
+  - first:
+      213: 3181330300669041696
+    second: Atlas - copia_56
+  - first:
+      213: 2693955725546877036
+    second: Atlas - copia_57
+  - first:
+      213: -681768233084623346
+    second: Atlas - copia_58
+  - first:
+      213: -8570723800521474147
+    second: Atlas - copia_59
+  - first:
+      213: -7885263355329293545
+    second: Atlas - copia_60
+  - first:
+      213: 2912508431300603458
+    second: Atlas - copia_61
+  - first:
+      213: 1320416364622474766
+    second: Atlas - copia_62
+  - first:
+      213: -5156246209314574496
+    second: Atlas - copia_63
+  - first:
+      213: 4574250817203210668
+    second: Atlas - copia_64
+  - first:
+      213: -5164845997977650681
+    second: Atlas - copia_65
+  - first:
+      213: -6177514182841651122
+    second: Atlas - copia_66
+  - first:
+      213: -527737469615335982
+    second: Atlas - copia_67
+  - first:
+      213: -3465255106352867580
+    second: Atlas - copia_68
+  - first:
+      213: 5447352899134921511
+    second: Atlas - copia_69
+  - first:
+      213: -2734715833022807704
+    second: Atlas - copia_70
+  - first:
+      213: 12567546306901926
+    second: Atlas - copia_71
+  - first:
+      213: -7740805127582766108
+    second: Atlas - copia_72
+  - first:
+      213: -4788699530055533403
+    second: Atlas - copia_73
+  - first:
+      213: -8600458447409632984
+    second: Atlas - copia_74
+  - first:
+      213: 5170686135525941064
+    second: Atlas - copia_75
+  - first:
+      213: -1319079849794353950
+    second: Atlas - copia_76
+  - first:
+      213: 2970441299255156020
+    second: Atlas - copia_77
+  - first:
+      213: 3236517680044503945
+    second: Atlas - copia_78
+  - first:
+      213: -8941786688858292696
+    second: Atlas - copia_79
+  - first:
+      213: -5898030198083540758
+    second: Atlas - copia_80
+  - first:
+      213: 3605850958319093516
+    second: Atlas - copia_81
+  - first:
+      213: 4470979590081457022
+    second: Atlas - copia_82
+  - first:
+      213: -3552777501719466863
+    second: Atlas - copia_83
+  - first:
+      213: 5545860333794790432
+    second: Atlas - copia_84
+  - first:
+      213: -8377048636737093379
+    second: Atlas - copia_85
+  - first:
+      213: -5220093386930550598
+    second: Atlas - copia_86
+  - first:
+      213: 1846945061617681727
+    second: Atlas - copia_87
+  - first:
+      213: -4402391156778579812
+    second: Atlas - copia_88
+  - first:
+      213: 4109364260331841198
+    second: Atlas - copia_89
+  - first:
+      213: -6935272117462320379
+    second: Atlas - copia_90
+  - first:
+      213: 4188990575142454490
+    second: Atlas - copia_91
+  - first:
+      213: 1140341416699199206
+    second: Atlas - copia_92
+  - first:
+      213: 5131754051873181633
+    second: Atlas - copia_93
+  - first:
+      213: -7526797704710381800
+    second: Atlas - copia_94
+  - first:
+      213: 8331697441597346305
+    second: Atlas - copia_95
+  - first:
+      213: 1405813461670296317
+    second: Atlas - copia_96
+  - first:
+      213: -8736679730372387812
+    second: Atlas - copia_97
+  - first:
+      213: -4960613232645255793
+    second: Atlas - copia_98
+  - first:
+      213: -7125599248470855050
+    second: Atlas - copia_99
+  - first:
+      213: -6721800763016318552
+    second: Atlas - copia_100
+  - first:
+      213: 4763395646708917094
+    second: Atlas - copia_101
+  - first:
+      213: 4259904630681651973
+    second: Atlas - copia_102
+  - first:
+      213: -7987078729705738588
+    second: Atlas - copia_103
+  - first:
+      213: 2915265504709598660
+    second: Atlas - copia_104
+  - first:
+      213: 5789154086827871460
+    second: Atlas - copia_105
+  - first:
+      213: -1740825250971929708
+    second: Atlas - copia_106
+  - first:
+      213: -8825475919777465418
+    second: Atlas - copia_107
+  - first:
+      213: -8923144949438815656
+    second: Atlas - copia_108
+  - first:
+      213: -7567513686219236271
+    second: Atlas - copia_109
+  - first:
+      213: -2132852812040517497
+    second: Atlas - copia_110
+  - first:
+      213: 7615781344381766809
+    second: Atlas - copia_111
+  - first:
+      213: 8207230289374919532
+    second: Atlas - copia_112
+  - first:
+      213: 4426504166742359998
+    second: Atlas - copia_113
+  - first:
+      213: 9080324687360042354
+    second: Atlas - copia_114
+  - first:
+      213: 7888666248617475644
+    second: Atlas - copia_115
+  - first:
+      213: -9063818401953932757
+    second: Atlas - copia_116
+  - first:
+      213: 3734508743214048010
+    second: Atlas - copia_117
+  - first:
+      213: 4893734353652247382
+    second: Atlas - copia_118
+  - first:
+      213: 6369611253312375562
+    second: Atlas - copia_119
+  - first:
+      213: -5936370609714398041
+    second: Atlas - copia_120
+  - first:
+      213: 3291083071160499145
+    second: Atlas - copia_121
+  - first:
+      213: -18871273164228705
+    second: Atlas - copia_122
+  - first:
+      213: -395903916903921652
+    second: Atlas - copia_123
+  - first:
+      213: -3287742974588015257
+    second: Atlas - copia_124
+  - first:
+      213: 8732200183386772654
+    second: Atlas - copia_125
+  - first:
+      213: 4529104950361795191
+    second: Atlas - copia_126
+  - first:
+      213: -4707593325017706143
+    second: Atlas - copia_127
+  - first:
+      213: -551638848225187533
+    second: Atlas - copia_128
+  - first:
+      213: -6599691071668225662
+    second: Atlas - copia_129
+  - first:
+      213: -1637965780987690171
+    second: Atlas - copia_130
+  - first:
+      213: 4248131582284937163
+    second: Atlas - copia_131
+  - first:
+      213: 3494404030773218315
+    second: Atlas - copia_132
+  - first:
+      213: -2460314109026793326
+    second: Atlas - copia_133
+  - first:
+      213: -3733420933980850302
+    second: Atlas - copia_134
+  - first:
+      213: -7893483640647126888
+    second: Atlas - copia_135
+  - first:
+      213: 5374226525150871731
+    second: Atlas - copia_136
+  - first:
+      213: -1231075393760057141
+    second: Atlas - copia_137
+  - first:
+      213: 296915969023570264
+    second: Atlas - copia_138
+  - first:
+      213: 1509350708439483531
+    second: Atlas - copia_139
+  - first:
+      213: 2056564764275169815
+    second: Atlas - copia_140
+  - first:
+      213: -786299400535214327
+    second: Atlas - copia_141
+  - first:
+      213: -2396709908715525474
+    second: Atlas - copia_142
+  - first:
+      213: 2425856148798634568
+    second: Atlas - copia_143
+  - first:
+      213: -642589370733770981
+    second: Atlas - copia_144
+  - first:
+      213: -1305093434528596470
+    second: Atlas - copia_145
+  - first:
+      213: 3657879743617296193
+    second: Atlas - copia_146
+  - first:
+      213: -2124753981886124876
+    second: Atlas - copia_147
+  - first:
+      213: 2502594255848005698
+    second: Atlas - copia_148
+  - first:
+      213: -8942385175775116177
+    second: Atlas - copia_149
+  - first:
+      213: 5850037859373973723
+    second: Atlas - copia_150
+  - first:
+      213: 7960052172778175817
+    second: Atlas - copia_151
+  - first:
+      213: 3886420958720347634
+    second: Atlas - copia_152
+  - first:
+      213: -2968140399330545088
+    second: Atlas - copia_153
+  - first:
+      213: 6972527473304268083
+    second: Atlas - copia_154
+  - first:
+      213: -7468819173758323441
+    second: Atlas - copia_155
+  - first:
+      213: 2828549855501591824
+    second: Atlas - copia_156
+  - first:
+      213: 1261042626218129403
+    second: Atlas - copia_157
+  - first:
+      213: 5535891085351256691
+    second: Atlas - copia_158
+  - first:
+      213: -3266873411063539295
+    second: Atlas - copia_159
+  - first:
+      213: -6120007905282829036
+    second: Atlas - copia_160
+  - first:
+      213: -8025880885320356648
+    second: Atlas - copia_161
+  - first:
+      213: -4678647716200182932
+    second: Atlas - copia_162
+  - first:
+      213: 2943311094769147161
+    second: Atlas - copia_163
+  - first:
+      213: 4569876547742317600
+    second: Atlas - copia_164
+  - first:
+      213: -5456549962526499456
+    second: Atlas - copia_165
+  - first:
+      213: 2106538067880723133
+    second: Atlas - copia_166
+  - first:
+      213: -7613086785348103653
+    second: Atlas - copia_167
+  - first:
+      213: 2184417855553130479
+    second: Atlas - copia_168
+  - first:
+      213: -4434890389866715160
+    second: Atlas - copia_169
+  - first:
+      213: -2814451605504435324
+    second: Atlas - copia_170
+  - first:
+      213: 3081184680598967162
+    second: Atlas - copia_171
+  - first:
+      213: 9147952481121883101
+    second: Atlas - copia_172
+  - first:
+      213: 2735077396173931133
+    second: Atlas - copia_173
+  - first:
+      213: 6804221126534971179
+    second: Atlas - copia_174
+  - first:
+      213: -4735640416914227652
+    second: Atlas - copia_175
+  - first:
+      213: 1754221387039575194
+    second: Atlas - copia_176
+  - first:
+      213: -6072470807810765171
+    second: Atlas - copia_177
+  - first:
+      213: -6307827593901093258
+    second: Atlas - copia_178
+  - first:
+      213: 5753888446984910822
+    second: Atlas - copia_179
+  - first:
+      213: -5301621690160711891
+    second: Atlas - copia_180
+  - first:
+      213: 8909180622295594328
+    second: Atlas - copia_181
+  - first:
+      213: 5576471873690085022
+    second: Atlas - copia_182
+  - first:
+      213: 8825801109362628982
+    second: Atlas - copia_183
+  - first:
+      213: 4538090550954351355
+    second: Atlas - copia_184
+  - first:
+      213: 4529659231978212803
+    second: Atlas - copia_185
+  - first:
+      213: 5883977216526562181
+    second: Atlas - copia_186
+  - first:
+      213: 4778541399444429711
+    second: Atlas - copia_187
+  - first:
+      213: -1516404852977176943
+    second: Atlas - copia_188
+  - first:
+      213: -8363954881037426595
+    second: Atlas - copia_189
+  - first:
+      213: -2642005830118562820
+    second: Atlas - copia_190
+  - first:
+      213: 6845431562052212555
+    second: Atlas - copia_191
+  - first:
+      213: -5742742645241538686
+    second: Atlas - copia_192
+  - first:
+      213: -1374530233419514110
+    second: Atlas - copia_193
+  - first:
+      213: -6915978386212125022
+    second: Atlas - copia_194
+  - first:
+      213: -3244973903344841624
+    second: Atlas - copia_195
+  - first:
+      213: 4245277943265995309
+    second: Atlas - copia_196
+  - first:
+      213: -61668693031686838
+    second: Atlas - copia_197
+  - first:
+      213: 4057092987187717732
+    second: Atlas - copia_198
+  - first:
+      213: -438661359468288769
+    second: Atlas - copia_199
+  - first:
+      213: 5122253902184813681
+    second: Atlas - copia_200
+  - first:
+      213: 7169557026358362142
+    second: Atlas - copia_201
+  - first:
+      213: 6773474054419959250
+    second: Atlas - copia_202
+  - first:
+      213: 2426196511086478139
+    second: Atlas - copia_203
+  - first:
+      213: -2492778153994863611
+    second: Atlas - copia_204
+  - first:
+      213: 2095736248060477246
+    second: Atlas - copia_205
+  - first:
+      213: 1050901631151339344
+    second: Atlas - copia_206
+  - first:
+      213: 4439762872243070667
+    second: Atlas - copia_207
+  - first:
+      213: 5428671958812924600
+    second: Atlas - copia_208
+  - first:
+      213: -2238802979036285087
+    second: Atlas - copia_209
+  - first:
+      213: -3122168003471744000
+    second: Atlas - copia_210
+  - first:
+      213: -4329626881016731499
+    second: Atlas - copia_211
+  - first:
+      213: 874976149547461708
+    second: Atlas - copia_212
+  - first:
+      213: -6276225307998248545
+    second: Atlas - copia_213
+  - first:
+      213: 5362309215075450548
+    second: Atlas - copia_214
+  - first:
+      213: 911917033188889497
+    second: Atlas - copia_215
+  - first:
+      213: 5233044675293230220
+    second: Atlas - copia_216
+  - first:
+      213: -3288520164910283326
+    second: Atlas - copia_217
+  - first:
+      213: -428763717262962142
+    second: Atlas - copia_218
+  - first:
+      213: 4197421096597683526
+    second: Atlas - copia_219
+  - first:
+      213: 4457609674581754212
+    second: Atlas - copia_220
+  - first:
+      213: 6291604728109657589
+    second: Atlas - copia_221
+  - first:
+      213: -4710073651443192825
+    second: Atlas - copia_222
+  - first:
+      213: 3725701911537724583
+    second: Atlas - copia_223
+  - first:
+      213: 8832327713286058730
+    second: Atlas - copia_224
+  - first:
+      213: 8873553121981006363
+    second: Atlas - copia_225
+  - first:
+      213: 7846815764617235107
+    second: Atlas - copia_226
+  - first:
+      213: -4510671224430458499
+    second: Atlas - copia_227
+  - first:
+      213: 2604381348080245078
+    second: Atlas - copia_228
+  - first:
+      213: -3582675535937990167
+    second: Atlas - copia_229
+  - first:
+      213: 7319917724919648673
+    second: Atlas - copia_230
+  - first:
+      213: -6064306355317676505
+    second: Atlas - copia_231
+  - first:
+      213: -3068412723918605640
+    second: Atlas - copia_232
+  - first:
+      213: -8654240270787882156
+    second: Atlas - copia_233
+  - first:
+      213: 8043608743107448580
+    second: Atlas - copia_234
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Atlas - copia_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 483
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f350ce20bff603d0800000000000000
+      internalID: -3240621749682809872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 478
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5a0be5b3e6ffbd0800000000000000
+      internalID: -2594233659071355463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 478
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49211fbee9b536610800000000000000
+      internalID: 1613233829650174612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 479
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a249c45806eabb540800000000000000
+      internalID: 5024801538838402090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_4
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 480
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1df49db1bdde8050800000000000000
+      internalID: 5804820725186755871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 479
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3937d1154b69d75e0800000000000000
+      internalID: -1910204965736057965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_6
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 479
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936b54a35db8a3a90800000000000000
+      internalID: -7333395295297489351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_7
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 481
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529cea74c5267b410800000000000000
+      internalID: 1492769949975759141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_8
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 481
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280ecbf87d29e1970800000000000000
+      internalID: 8727574582417744002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_9
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 475
+        width: 53
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0f1569c5ceeebb0800000000000000
+      internalID: -4904723061756792624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 481
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05d55199c5492320800000000000000
+      internalID: 2533632997401679115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_11
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 479
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c712c8115173b41e0800000000000000
+      internalID: -2212614228294229636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_12
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 479
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b3139ea0f73ab70800000000000000
+      internalID: 8909104172707691389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_13
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 446
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ad6c43a2ade1220800000000000000
+      internalID: 2458642321399798415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_14
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 462
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139a99a2f542043d0800000000000000
+      internalID: -3224537342042068687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 463
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca8fe916cd90db60800000000000000
+      internalID: 7768882831378320076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 464
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2368ae792842aa0800000000000000
+      internalID: -6186676399113882918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 463
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2765256ceaafeb0800000000000000
+      internalID: -4685240295517424939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_18
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 463
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90ca95773c1f3bb0800000000000000
+      internalID: -4954210040562401122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_19
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 448
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ee205122468d0e0800000000000000
+      internalID: -2244934316700012989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_20
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 442
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cca3ffe44ed6780800000000000000
+      internalID: -8688037078187193305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_21
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 448
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61773cfa108887be0800000000000000
+      internalID: -1479282936766040298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_22
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 448
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f87210b9a25f1e0800000000000000
+      internalID: -2164777200653987979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_23
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 448
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b65d4cfcab3f93b0800000000000000
+      internalID: -5503614605470116168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_24
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 448
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3550b8f77f8f4ade0800000000000000
+      internalID: -1322658648659655341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_25
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 448
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbe7cc9babcb2620800000000000000
+      internalID: 2750515935370013633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 448
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c81d14cc4d5233e50800000000000000
+      internalID: 6787810659267629452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 446
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2a794646f814190800000000000000
+      internalID: -7979939403376647476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_28
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 447
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91433f3f7449bb900800000000000000
+      internalID: 701317203742635033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_29
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 448
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99b80e1b407fa000800000000000000
+      internalID: 49381588853111194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 447
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa9f58034ac5c880800000000000000
+      internalID: -8591238324887250272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 447
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e62485ff7d2db420800000000000000
+      internalID: 2647322183566894817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_32
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 448
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7344e751915b4c8e0800000000000000
+      internalID: -1674014042135575497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_33
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 448
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f705569beda14a0800000000000000
+      internalID: -6621735414244802683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_34
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 449
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d256c3ffa3a1e2d0800000000000000
+      internalID: -3251137479880322343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_35
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 449
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe87e308d83856220800000000000000
+      internalID: 2478531813702531311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_36
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 434
+        width: 45
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908e1b44fc007e3c0800000000000000
+      internalID: -4330491626482702327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_37
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 434
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181fd30298fc44740800000000000000
+      internalID: 5135457662967607681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_38
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 430
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3011844bbdad1de0800000000000000
+      internalID: -1360740492576223173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_39
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 431
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475db17f05b722d60800000000000000
+      internalID: 7863983487015703924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_40
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 432
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f842d73361bb8f810800000000000000
+      internalID: 1799393755162027151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 431
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3cc13723c6bd670800000000000000
+      internalID: 8564558080310559658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_42
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 431
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49823e113ab10e8b0800000000000000
+      internalID: -5125065988753905516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_43
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 434
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9e2b0b606815170800000000000000
+      internalID: 8165454962691860973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_44
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 398
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31760e65e81b7b10800000000000000
+      internalID: 1980203834831958330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_45
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 398
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9742ba671d821bf10800000000000000
+      internalID: 2283651366157755513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_46
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 398
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81e24d18604e3350800000000000000
+      internalID: 5998302569615778186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_47
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 398
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41621e603c9c8f900800000000000000
+      internalID: 718545980036818452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_48
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 415
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e571452f08b783e0800000000000000
+      internalID: -2051468730054904346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_49
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 414
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4afe50e508ecc40c0800000000000000
+      internalID: -4590066869468794972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_50
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 414
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3661ca0f1d449ade0800000000000000
+      internalID: -1321449347179866525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_51
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 367
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197df2bd4dd597d30800000000000000
+      internalID: 4429674877287389073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_52
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 365
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b2f0b040743b250800000000000000
+      internalID: 5959184814632282925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_53
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 398
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bb435a72dc06440800000000000000
+      internalID: 4927163562502437673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_54
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 398
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf02a167c2735f20800000000000000
+      internalID: 3410195543511666651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_55
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 398
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83beb52c28a885f0800000000000000
+      internalID: -754168030019275889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_56
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 398
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c90949d0b562c20800000000000000
+      internalID: 3181330300669041696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_57
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 398
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60f9dd857ad26520800000000000000
+      internalID: 2693955725546877036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_58
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 398
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0668d7776fd986f0800000000000000
+      internalID: -681768233084623346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_59
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 398
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f7ee1fc1cae0980800000000000000
+      internalID: -8570723800521474147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_60
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 399
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713513991cae19290800000000000000
+      internalID: -7885263355329293545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 398
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ea005bcfe4b6820800000000000000
+      internalID: 2912508431300603458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_62
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 398
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e6fe010bf035210800000000000000
+      internalID: 1320416364622474766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_63
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 398
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06fa95f34655178b0800000000000000
+      internalID: -5156246209314574496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_64
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 365
+        width: 22
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca900f002e00b7f30800000000000000
+      internalID: 4574250817203210668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_65
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 365
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab1faede7c258b0800000000000000
+      internalID: -5164845997977650681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_66
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 356
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4039c0a49f054aa0800000000000000
+      internalID: -6177514182841651122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_67
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 383
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51ae441991da8f0800000000000000
+      internalID: -527737469615335982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 383
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4079ab927d0f8efc0800000000000000
+      internalID: -3465255106352867580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_69
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 383
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b9127b992e89b40800000000000000
+      internalID: 5447352899134921511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_70
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 366
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8610a0360765c0ad0800000000000000
+      internalID: -2734715833022807704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_71
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 366
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a73255ed16ac2000800000000000000
+      internalID: 12567546306901926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 366
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb28eebfb2239490800000000000000
+      internalID: -7740805127582766108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_73
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 375
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acb5f6262f1b8db0800000000000000
+      internalID: -4788699530055533403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_74
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 369
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82924a8fb9805a880800000000000000
+      internalID: -8600458447409632984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_75
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 367
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f9f0115a7f1c740800000000000000
+      internalID: 5170686135525941064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_76
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 302
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4c1aa8ddfa1bde0800000000000000
+      internalID: -1319079849794353950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_77
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 356
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43dd044af90293920800000000000000
+      internalID: 2970441299255156020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_78
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 334
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983f254aeab6aec20800000000000000
+      internalID: 3236517680044503945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_79
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 334
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ef841d16468e380800000000000000
+      internalID: -8941786688858292696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 334
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae824b0b8ccf52ea0800000000000000
+      internalID: -5898030198083540758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_81
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 334
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c078c9b875e8a0230800000000000000
+      internalID: 3605850958319093516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_82
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 334
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ba3d8bf3c1c0e30800000000000000
+      internalID: 4470979590081457022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_83
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 334
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19ce2048faff1bec0800000000000000
+      internalID: -3552777501719466863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_84
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 334
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c84c1279ad6fc40800000000000000
+      internalID: 5545860333794790432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 337
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df08d1df5aebebb80800000000000000
+      internalID: -8377048636737093379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_86
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 334
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab883a9c8b08e87b0800000000000000
+      internalID: -5220093386930550598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_87
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 318
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35426d7fbaa1a910800000000000000
+      internalID: 1846945061617681727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_88
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 338
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9844e9519097e2c0800000000000000
+      internalID: -4402391156778579812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_89
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 326
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6e3cdb505670930800000000000000
+      internalID: 4109364260331841198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_90
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 319
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50bbcf9f0c6f0cf90800000000000000
+      internalID: -6935272117462320379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_91
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 335
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad443dedbb8422a30800000000000000
+      internalID: 4188990575142454490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_92
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee75090a7e43df00800000000000000
+      internalID: 1140341416699199206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_93
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 335
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf8298fe17a73740800000000000000
+      internalID: 5131754051873181633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_94
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f1382cd517b8790800000000000000
+      internalID: -7526797704710381800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_95
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102d07e0ea220a370800000000000000
+      internalID: 8331697441597346305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_96
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 335
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfaf15325e3728310800000000000000
+      internalID: 1405813461670296317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_97
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c5ccaf21411c680800000000000000
+      internalID: -8736679730372387812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_98
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 335
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8dc3102c8c582bb0800000000000000
+      internalID: -4960613232645255793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_99
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 335
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 672ba1f8c39cc1d90800000000000000
+      internalID: -7125599248470855050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_100
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 335
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a17675d1dd57b2a0800000000000000
+      internalID: -6721800763016318552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_101
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 335
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6632ab66a1bfa1240800000000000000
+      internalID: 4763395646708917094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_102
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 332
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b42d011b83e1b30800000000000000
+      internalID: 4259904630681651973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_103
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 335
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aeafc27632382190800000000000000
+      internalID: -7987078729705738588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_104
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 302
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd5a22e78a157820800000000000000
+      internalID: 2915265504709598660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_105
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 320
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec406f38f4375050800000000000000
+      internalID: 5789154086827871460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_106
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 318
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b9c358a857d7e0800000000000000
+      internalID: -1740825250971929708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_107
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 320
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb76eb096c958580800000000000000
+      internalID: -8825475919777465418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_108
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 300
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852e06102fe9a2480800000000000000
+      internalID: -8923144949438815656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_109
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 300
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cdef3956acaf690800000000000000
+      internalID: -7567513686219236271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_110
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 300
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788c124faa59662e0800000000000000
+      internalID: -2132852812040517497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_111
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 300
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c0ce658c0b0b960800000000000000
+      internalID: 7615781344381766809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_112
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 300
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bb404e670f5e170800000000000000
+      internalID: 8207230289374919532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_113
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 300
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebff677461a1e6d30800000000000000
+      internalID: 4426504166742359998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_114
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 300
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2752e4b813bc30e70800000000000000
+      internalID: 9080324687360042354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_115
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 300
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e357c382c2a7d60800000000000000
+      internalID: 7888666248617475644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_116
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 300
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a13e28f29d63280800000000000000
+      internalID: -9063818401953932757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_117
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 300
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a032dd96ae3a3d330800000000000000
+      internalID: 3734508743214048010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_118
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 177
+        width: 30
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65b619e67790ae340800000000000000
+      internalID: 4893734353652247382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_119
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 302
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0bc30fefa7656850800000000000000
+      internalID: 6369611253312375562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_120
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 302
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac77e8f166cd9da0800000000000000
+      internalID: -5936370609714398041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_121
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 238
+        width: 50
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbb2d6cd964cad20800000000000000
+      internalID: 3291083071160499145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_122
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 270
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9736925da4fcbff0800000000000000
+      internalID: -18871273164228705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_123
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 270
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0881c33c77718af0800000000000000
+      internalID: -395903916903921652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_124
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 236
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d25ee0f279f52d0800000000000000
+      internalID: -3287742974588015257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_125
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 268
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea49e563dc10f2970800000000000000
+      internalID: 8732200183386772654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_126
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 269
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a27c4c4fc9ade30800000000000000
+      internalID: 4529104950361795191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_127
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 274
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161d15310d44baeb0800000000000000
+      internalID: -4707593325017706143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_128
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 236
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3396b37e36f2858f0800000000000000
+      internalID: -551638848225187533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_129
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 236
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289f5eddfef2964a0800000000000000
+      internalID: -6599691071668225662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_130
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 238
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543cbfdecc6c449e0800000000000000
+      internalID: -1637965780987690171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_131
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 238
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc73631aa2564fa30800000000000000
+      internalID: 4248131582284937163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_132
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 222
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c4eeba3fd9e7030800000000000000
+      internalID: 3494404030773218315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_133
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 224
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29883976a553bddd0800000000000000
+      internalID: -2460314109026793326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_134
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 241
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2877019e079303cc0800000000000000
+      internalID: -3733420933980850302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_135
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 174
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890fed64376b47290800000000000000
+      internalID: -7893483640647126888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_136
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 174
+        width: 82
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0891efc86159a40800000000000000
+      internalID: 5374226525150871731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_137
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 226
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8253fa3775aeee0800000000000000
+      internalID: -1231075393760057141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_138
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 206
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8517acd208bde1400800000000000000
+      internalID: 296915969023570264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_139
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 181
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b840502f87a42f410800000000000000
+      internalID: 1509350708439483531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_140
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 211
+        width: 35
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ad438c1c26a8c10800000000000000
+      internalID: 2056564764275169815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_141
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 202
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907fef77cd08615f0800000000000000
+      internalID: -786299400535214327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_142
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 201
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a2a5d490d2dbed0800000000000000
+      internalID: -2396709908715525474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_143
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 188
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84af659805f5aa120800000000000000
+      internalID: 2425856148798634568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_144
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 188
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17c8f43f501517f0800000000000000
+      internalID: -642589370733770981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_145
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 188
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e7a3c9f6063ede0800000000000000
+      internalID: -1305093434528596470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_146
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 192
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147e76d1f3663c230800000000000000
+      internalID: 3657879743617296193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_147
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 200
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bca49ac28b5382e0800000000000000
+      internalID: -2124753981886124876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_148
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e0c467300bb220800000000000000
+      internalID: 2502594255848005698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_149
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 158
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f648439bf0446e380800000000000000
+      internalID: -8942385175775116177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_150
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 181
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0829230728f2150800000000000000
+      internalID: 5850037859373973723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_151
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 181
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94df408e649c77e60800000000000000
+      internalID: 7960052172778175817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_152
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 181
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdc82455475fe530800000000000000
+      internalID: 3886420958720347634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_153
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 181
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042ba6e580c0fc6d0800000000000000
+      internalID: -2968140399330545088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_154
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 110
+        width: 54
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33de3f08bc463c060800000000000000
+      internalID: 6972527473304268083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_155
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 76
+        width: 22
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f053280788c695890800000000000000
+      internalID: -7468819173758323441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_156
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 140
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015a7a67b17014720800000000000000
+      internalID: 2828549855501591824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_157
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 148
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf77b56569f108110800000000000000
+      internalID: 1261042626218129403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_158
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 157
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3720d999c9f63dc40800000000000000
+      internalID: 5535891085351256691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_159
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 156
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a99367f0fbb9a2d0800000000000000
+      internalID: -3266873411063539295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_160
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 149
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415d80f3c3d511ba0800000000000000
+      internalID: -6120007905282829036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_161
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 159
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dce1e49bd75e9090800000000000000
+      internalID: -8025880885320356648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_162
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 159
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b02bec0ba121fb0800000000000000
+      internalID: -4678647716200182932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_163
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 159
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d5e2ba8ddb8d820800000000000000
+      internalID: 2943311094769147161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_164
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cb19702867b6f30800000000000000
+      internalID: 4569876547742317600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_165
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ddf6818b07644b0800000000000000
+      internalID: -5456549962526499456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_166
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 159
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db24ed9363deb3d10800000000000000
+      internalID: 2106538067880723133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_167
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 159
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b121b1397e1e85690800000000000000
+      internalID: -7613086785348103653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_168
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fefc341577c905e10800000000000000
+      internalID: 2184417855553130479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_169
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7633effaa1472c0800000000000000
+      internalID: -4434890389866715160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_170
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 159
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b51682d2f01f8d0800000000000000
+      internalID: -2814451605504435324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_171
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 159
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a731a76642192ca20800000000000000
+      internalID: 3081184680598967162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_172
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 159
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd35c6b405e04fe70800000000000000
+      internalID: 9147952481121883101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_173
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 118
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72c5289662f4f520800000000000000
+      internalID: 2735077396173931133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_174
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 147
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f335470137d6e50800000000000000
+      internalID: 6804221126534971179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_175
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 128
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e38dd9120a74eb0800000000000000
+      internalID: -4735640416914227652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_176
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 130
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c03e7ae0f385810800000000000000
+      internalID: 1754221387039575194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_177
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 138
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e828f39ff3abba0800000000000000
+      internalID: -6072470807810765171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_178
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 138
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e4e1149381678a0800000000000000
+      internalID: -6307827593901093258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_179
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 128
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e772cf9e0be9df40800000000000000
+      internalID: 5753888446984910822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_180
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 130
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27f678792bdc66b0800000000000000
+      internalID: -5301621690160711891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_181
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 131
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 855f8b7b294c3ab70800000000000000
+      internalID: 8909180622295594328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_182
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 125
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96214baf9b936d40800000000000000
+      internalID: 5576471873690085022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_183
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 125
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679decd095b8b7a70800000000000000
+      internalID: 8825801109362628982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_184
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 110
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfad030ff498afe30800000000000000
+      internalID: 4538090550954351355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_185
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 92
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd41a382159cde30800000000000000
+      internalID: 4529659231978212803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_186
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 96
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583be819a1618a150800000000000000
+      internalID: 5883977216526562181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_187
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 92
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b1262c51ac05240800000000000000
+      internalID: 4778541399444429711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_188
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 92
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19eed9a02d5a4fae0800000000000000
+      internalID: -1516404852977176943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_189
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 92
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50ae5e89534deb80800000000000000
+      internalID: -8363954881037426595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_190
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 94
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3a54902b5b55bd0800000000000000
+      internalID: -2642005830118562820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_191
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 86
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b479e5eacbbdffe50800000000000000
+      internalID: 6845431562052212555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_192
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 76
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28714e19dfdad40b0800000000000000
+      internalID: -5742742645241538686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_193
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 80
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20fbef70900bcece0800000000000000
+      internalID: -1374530233419514110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_194
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 84
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a60c87dc428500a0800000000000000
+      internalID: -6915978386212125022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_195
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 46
+        width: 14
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cc7b17d6987f2d0800000000000000
+      internalID: -3244973903344841624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_196
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 60
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2aab250cc14aea30800000000000000
+      internalID: 4245277943265995309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_197
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 60
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d651286a8e42ff0800000000000000
+      internalID: -61668693031686838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_198
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 65
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4666d029390bd4830800000000000000
+      internalID: 4057092987187717732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_199
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 63
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4e33451df89e9f0800000000000000
+      internalID: -438661359468288769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_200
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 49
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174951109c6e51740800000000000000
+      internalID: 5122253902184813681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_201
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 46
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e100ff821226f7360800000000000000
+      internalID: 7169557026358362142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_202
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 62
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddc60dd3c6300e50800000000000000
+      internalID: 6773474054419959250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_203
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 30
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b330a9e4fd49ba120800000000000000
+      internalID: 2426196511086478139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_204
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 46
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c384be97fd76dd0800000000000000
+      internalID: -2492778153994863611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_205
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 48
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ffd80930d851d10800000000000000
+      internalID: 2095736248060477246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_206
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 49
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05777a2377d859e00800000000000000
+      internalID: 1050901631151339344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_207
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc624073fc43d9d30800000000000000
+      internalID: 4439762872243070667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_208
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 47
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba1b2b5264865b40800000000000000
+      internalID: 5428671958812924600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_209
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 28
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167b4706d8c2ee0e0800000000000000
+      internalID: -2238802979036285087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_210
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 28
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004e9f72eb4dba4d0800000000000000
+      internalID: -3122168003471744000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_211
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 34
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 598e3038a431ae3c0800000000000000
+      internalID: -4329626881016731499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_212
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 34
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c27b41c2a842c00800000000000000
+      internalID: 874976149547461708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_213
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 33
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91a272d55e56e8a0800000000000000
+      internalID: -6276225307998248545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_214
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 35
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be306402dfba6a40800000000000000
+      internalID: 5362309215075450548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_215
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 34
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9931adbc5b7c7ac00800000000000000
+      internalID: 911917033188889497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_216
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 31
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843a9408628f9840800000000000000
+      internalID: 5233044675293230220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_217
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 31
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c540d55554dc52d0800000000000000
+      internalID: -3288520164910283326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_218
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 29
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22217fbbba9bc0af0800000000000000
+      internalID: -428763717262962142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_219
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 30
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d7f6b9f3c304a30800000000000000
+      internalID: 4197421096597683526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_220
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 3
+        width: 19
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4614ac0b16c9cdd30800000000000000
+      internalID: 4457609674581754212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_221
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 24
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fde4267a25405750800000000000000
+      internalID: 6291604728109657589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_222
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 20
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c2dc318f472aeb0800000000000000
+      internalID: -4710073651443192825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_223
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 19
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac2330262a54b330800000000000000
+      internalID: 3725701911537724583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_224
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 19
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2f042724bb29a70800000000000000
+      internalID: 8832327713286058730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_225
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 15
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b128c33ec81352b70800000000000000
+      internalID: 8873553121981006363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_226
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 8
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa02fb1d5d75ec60800000000000000
+      internalID: 7846815764617235107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_227
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 23
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d790f318b60e661c0800000000000000
+      internalID: -4510671224430458499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_228
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 14
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 659d9f7990f942420800000000000000
+      internalID: 2604381348080245078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_229
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e11fe6f497c74ec0800000000000000
+      internalID: -3582675535937990167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_230
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1dbe26362959560800000000000000
+      internalID: 7319917724919648673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_231
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726652aff7147dba0800000000000000
+      internalID: -6064306355317676505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_232
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 1
+        width: 50
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2fa8e72eeca65d0800000000000000
+      internalID: -3068412723918605640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_233
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 5
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453deca6356f5e780800000000000000
+      internalID: -8654240270787882156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Atlas - copia_234
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f4525f883a0af60800000000000000
+      internalID: 8043608743107448580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Atlas - copia_0: -3240621749682809872
+      Atlas - copia_1: -2594233659071355463
+      Atlas - copia_10: 2533632997401679115
+      Atlas - copia_100: -6721800763016318552
+      Atlas - copia_101: 4763395646708917094
+      Atlas - copia_102: 4259904630681651973
+      Atlas - copia_103: -7987078729705738588
+      Atlas - copia_104: 2915265504709598660
+      Atlas - copia_105: 5789154086827871460
+      Atlas - copia_106: -1740825250971929708
+      Atlas - copia_107: -8825475919777465418
+      Atlas - copia_108: -8923144949438815656
+      Atlas - copia_109: -7567513686219236271
+      Atlas - copia_11: -2212614228294229636
+      Atlas - copia_110: -2132852812040517497
+      Atlas - copia_111: 7615781344381766809
+      Atlas - copia_112: 8207230289374919532
+      Atlas - copia_113: 4426504166742359998
+      Atlas - copia_114: 9080324687360042354
+      Atlas - copia_115: 7888666248617475644
+      Atlas - copia_116: -9063818401953932757
+      Atlas - copia_117: 3734508743214048010
+      Atlas - copia_118: 4893734353652247382
+      Atlas - copia_119: 6369611253312375562
+      Atlas - copia_12: 8909104172707691389
+      Atlas - copia_120: -5936370609714398041
+      Atlas - copia_121: 3291083071160499145
+      Atlas - copia_122: -18871273164228705
+      Atlas - copia_123: -395903916903921652
+      Atlas - copia_124: -3287742974588015257
+      Atlas - copia_125: 8732200183386772654
+      Atlas - copia_126: 4529104950361795191
+      Atlas - copia_127: -4707593325017706143
+      Atlas - copia_128: -551638848225187533
+      Atlas - copia_129: -6599691071668225662
+      Atlas - copia_13: 2458642321399798415
+      Atlas - copia_130: -1637965780987690171
+      Atlas - copia_131: 4248131582284937163
+      Atlas - copia_132: 3494404030773218315
+      Atlas - copia_133: -2460314109026793326
+      Atlas - copia_134: -3733420933980850302
+      Atlas - copia_135: -7893483640647126888
+      Atlas - copia_136: 5374226525150871731
+      Atlas - copia_137: -1231075393760057141
+      Atlas - copia_138: 296915969023570264
+      Atlas - copia_139: 1509350708439483531
+      Atlas - copia_14: -3224537342042068687
+      Atlas - copia_140: 2056564764275169815
+      Atlas - copia_141: -786299400535214327
+      Atlas - copia_142: -2396709908715525474
+      Atlas - copia_143: 2425856148798634568
+      Atlas - copia_144: -642589370733770981
+      Atlas - copia_145: -1305093434528596470
+      Atlas - copia_146: 3657879743617296193
+      Atlas - copia_147: -2124753981886124876
+      Atlas - copia_148: 2502594255848005698
+      Atlas - copia_149: -8942385175775116177
+      Atlas - copia_15: 7768882831378320076
+      Atlas - copia_150: 5850037859373973723
+      Atlas - copia_151: 7960052172778175817
+      Atlas - copia_152: 3886420958720347634
+      Atlas - copia_153: -2968140399330545088
+      Atlas - copia_154: 6972527473304268083
+      Atlas - copia_155: -7468819173758323441
+      Atlas - copia_156: 2828549855501591824
+      Atlas - copia_157: 1261042626218129403
+      Atlas - copia_158: 5535891085351256691
+      Atlas - copia_159: -3266873411063539295
+      Atlas - copia_16: -6186676399113882918
+      Atlas - copia_160: -6120007905282829036
+      Atlas - copia_161: -8025880885320356648
+      Atlas - copia_162: -4678647716200182932
+      Atlas - copia_163: 2943311094769147161
+      Atlas - copia_164: 4569876547742317600
+      Atlas - copia_165: -5456549962526499456
+      Atlas - copia_166: 2106538067880723133
+      Atlas - copia_167: -7613086785348103653
+      Atlas - copia_168: 2184417855553130479
+      Atlas - copia_169: -4434890389866715160
+      Atlas - copia_17: -4685240295517424939
+      Atlas - copia_170: -2814451605504435324
+      Atlas - copia_171: 3081184680598967162
+      Atlas - copia_172: 9147952481121883101
+      Atlas - copia_173: 2735077396173931133
+      Atlas - copia_174: 6804221126534971179
+      Atlas - copia_175: -4735640416914227652
+      Atlas - copia_176: 1754221387039575194
+      Atlas - copia_177: -6072470807810765171
+      Atlas - copia_178: -6307827593901093258
+      Atlas - copia_179: 5753888446984910822
+      Atlas - copia_18: -4954210040562401122
+      Atlas - copia_180: -5301621690160711891
+      Atlas - copia_181: 8909180622295594328
+      Atlas - copia_182: 5576471873690085022
+      Atlas - copia_183: 8825801109362628982
+      Atlas - copia_184: 4538090550954351355
+      Atlas - copia_185: 4529659231978212803
+      Atlas - copia_186: 5883977216526562181
+      Atlas - copia_187: 4778541399444429711
+      Atlas - copia_188: -1516404852977176943
+      Atlas - copia_189: -8363954881037426595
+      Atlas - copia_19: -2244934316700012989
+      Atlas - copia_190: -2642005830118562820
+      Atlas - copia_191: 6845431562052212555
+      Atlas - copia_192: -5742742645241538686
+      Atlas - copia_193: -1374530233419514110
+      Atlas - copia_194: -6915978386212125022
+      Atlas - copia_195: -3244973903344841624
+      Atlas - copia_196: 4245277943265995309
+      Atlas - copia_197: -61668693031686838
+      Atlas - copia_198: 4057092987187717732
+      Atlas - copia_199: -438661359468288769
+      Atlas - copia_2: 1613233829650174612
+      Atlas - copia_20: -8688037078187193305
+      Atlas - copia_200: 5122253902184813681
+      Atlas - copia_201: 7169557026358362142
+      Atlas - copia_202: 6773474054419959250
+      Atlas - copia_203: 2426196511086478139
+      Atlas - copia_204: -2492778153994863611
+      Atlas - copia_205: 2095736248060477246
+      Atlas - copia_206: 1050901631151339344
+      Atlas - copia_207: 4439762872243070667
+      Atlas - copia_208: 5428671958812924600
+      Atlas - copia_209: -2238802979036285087
+      Atlas - copia_21: -1479282936766040298
+      Atlas - copia_210: -3122168003471744000
+      Atlas - copia_211: -4329626881016731499
+      Atlas - copia_212: 874976149547461708
+      Atlas - copia_213: -6276225307998248545
+      Atlas - copia_214: 5362309215075450548
+      Atlas - copia_215: 911917033188889497
+      Atlas - copia_216: 5233044675293230220
+      Atlas - copia_217: -3288520164910283326
+      Atlas - copia_218: -428763717262962142
+      Atlas - copia_219: 4197421096597683526
+      Atlas - copia_22: -2164777200653987979
+      Atlas - copia_220: 4457609674581754212
+      Atlas - copia_221: 6291604728109657589
+      Atlas - copia_222: -4710073651443192825
+      Atlas - copia_223: 3725701911537724583
+      Atlas - copia_224: 8832327713286058730
+      Atlas - copia_225: 8873553121981006363
+      Atlas - copia_226: 7846815764617235107
+      Atlas - copia_227: -4510671224430458499
+      Atlas - copia_228: 2604381348080245078
+      Atlas - copia_229: -3582675535937990167
+      Atlas - copia_23: -5503614605470116168
+      Atlas - copia_230: 7319917724919648673
+      Atlas - copia_231: -6064306355317676505
+      Atlas - copia_232: -3068412723918605640
+      Atlas - copia_233: -8654240270787882156
+      Atlas - copia_234: 8043608743107448580
+      Atlas - copia_24: -1322658648659655341
+      Atlas - copia_25: 2750515935370013633
+      Atlas - copia_26: 6787810659267629452
+      Atlas - copia_27: -7979939403376647476
+      Atlas - copia_28: 701317203742635033
+      Atlas - copia_29: 49381588853111194
+      Atlas - copia_3: 5024801538838402090
+      Atlas - copia_30: -8591238324887250272
+      Atlas - copia_31: 2647322183566894817
+      Atlas - copia_32: -1674014042135575497
+      Atlas - copia_33: -6621735414244802683
+      Atlas - copia_34: -3251137479880322343
+      Atlas - copia_35: 2478531813702531311
+      Atlas - copia_36: -4330491626482702327
+      Atlas - copia_37: 5135457662967607681
+      Atlas - copia_38: -1360740492576223173
+      Atlas - copia_39: 7863983487015703924
+      Atlas - copia_4: 5804820725186755871
+      Atlas - copia_40: 1799393755162027151
+      Atlas - copia_41: 8564558080310559658
+      Atlas - copia_42: -5125065988753905516
+      Atlas - copia_43: 8165454962691860973
+      Atlas - copia_44: 1980203834831958330
+      Atlas - copia_45: 2283651366157755513
+      Atlas - copia_46: 5998302569615778186
+      Atlas - copia_47: 718545980036818452
+      Atlas - copia_48: -2051468730054904346
+      Atlas - copia_49: -4590066869468794972
+      Atlas - copia_5: -1910204965736057965
+      Atlas - copia_50: -1321449347179866525
+      Atlas - copia_51: 4429674877287389073
+      Atlas - copia_52: 5959184814632282925
+      Atlas - copia_53: 4927163562502437673
+      Atlas - copia_54: 3410195543511666651
+      Atlas - copia_55: -754168030019275889
+      Atlas - copia_56: 3181330300669041696
+      Atlas - copia_57: 2693955725546877036
+      Atlas - copia_58: -681768233084623346
+      Atlas - copia_59: -8570723800521474147
+      Atlas - copia_6: -7333395295297489351
+      Atlas - copia_60: -7885263355329293545
+      Atlas - copia_61: 2912508431300603458
+      Atlas - copia_62: 1320416364622474766
+      Atlas - copia_63: -5156246209314574496
+      Atlas - copia_64: 4574250817203210668
+      Atlas - copia_65: -5164845997977650681
+      Atlas - copia_66: -6177514182841651122
+      Atlas - copia_67: -527737469615335982
+      Atlas - copia_68: -3465255106352867580
+      Atlas - copia_69: 5447352899134921511
+      Atlas - copia_7: 1492769949975759141
+      Atlas - copia_70: -2734715833022807704
+      Atlas - copia_71: 12567546306901926
+      Atlas - copia_72: -7740805127582766108
+      Atlas - copia_73: -4788699530055533403
+      Atlas - copia_74: -8600458447409632984
+      Atlas - copia_75: 5170686135525941064
+      Atlas - copia_76: -1319079849794353950
+      Atlas - copia_77: 2970441299255156020
+      Atlas - copia_78: 3236517680044503945
+      Atlas - copia_79: -8941786688858292696
+      Atlas - copia_8: 8727574582417744002
+      Atlas - copia_80: -5898030198083540758
+      Atlas - copia_81: 3605850958319093516
+      Atlas - copia_82: 4470979590081457022
+      Atlas - copia_83: -3552777501719466863
+      Atlas - copia_84: 5545860333794790432
+      Atlas - copia_85: -8377048636737093379
+      Atlas - copia_86: -5220093386930550598
+      Atlas - copia_87: 1846945061617681727
+      Atlas - copia_88: -4402391156778579812
+      Atlas - copia_89: 4109364260331841198
+      Atlas - copia_9: -4904723061756792624
+      Atlas - copia_90: -6935272117462320379
+      Atlas - copia_91: 4188990575142454490
+      Atlas - copia_92: 1140341416699199206
+      Atlas - copia_93: 5131754051873181633
+      Atlas - copia_94: -7526797704710381800
+      Atlas - copia_95: 8331697441597346305
+      Atlas - copia_96: 1405813461670296317
+      Atlas - copia_97: -8736679730372387812
+      Atlas - copia_98: -4960613232645255793
+      Atlas - copia_99: -7125599248470855050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

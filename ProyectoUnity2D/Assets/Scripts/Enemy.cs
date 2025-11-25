@@ -3,6 +3,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     public float speed;
+    private float LastSpeed;
     public Rigidbody2D target;
 
     bool isLive = true;
@@ -10,12 +11,21 @@ public class Enemy : MonoBehaviour
     private SpriteRenderer spriter;
     public Animator animator;
 
+    public float tiempoPowerUp;
+
+
     private void Start()
     {
+        
+        LastSpeed = speed;
         rb = GetComponent<Rigidbody2D>();
         spriter = GetComponent<SpriteRenderer>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        if (Datos.instance.powerUpPausaEnemigos)
+        {
+            speed = 0;
+        }
     }
 
     private void FixedUpdate()
@@ -40,5 +50,18 @@ public class Enemy : MonoBehaviour
     {
         animator.Play("Hit");
         Destroy(gameObject);
+    }
+
+    public void PowerUp()
+    {
+        speed = 0;
+        Datos.instance.powerUpPausaEnemigos = true;
+        Invoke(nameof(restaurar), tiempoPowerUp);
+    }
+
+    private void restaurar()
+    {
+        speed = LastSpeed;
+        Datos.instance.powerUpPausaEnemigos = false;
     }
 }

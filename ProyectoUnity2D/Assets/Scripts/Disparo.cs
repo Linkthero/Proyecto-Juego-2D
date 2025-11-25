@@ -9,6 +9,8 @@ public class Disparo : MonoBehaviour
     [Header("Disparo")]
     [SerializeField] private GameObject prefabBala;
 
+    [SerializeField] private float tiempoPowerUp;
+
     [Header("Puntos de disparo")]
     [SerializeField] private Transform puntoDisparoArriba;
     [SerializeField] private Transform puntoDisparoAbajo;
@@ -112,6 +114,18 @@ public class Disparo : MonoBehaviour
     //    //    StartCoroutine("CoorDisparo");
     //    StartCoroutine("CoorDisparo");
     //}
+
+    public void PowerUp()
+    {
+        tiempoDisparo = tiempoDisparo / 3;
+        Invoke(nameof(restaurarDisparo), tiempoPowerUp);      // tiempo durante el que se aplica el power up
+
+    }
+
+    void restaurarDisparo()
+    {
+        tiempoDisparo = tiempoDisparo * 3;
+    }
 
     private IEnumerator CoorDisparo(KeyCode k, KeyCode j = KeyCode.None)
     {

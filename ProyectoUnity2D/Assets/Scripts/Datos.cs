@@ -18,6 +18,8 @@ public class Datos : MonoBehaviour
     [SerializeField] public int nEnemigosOleada2;
     [SerializeField] public int nEnemigosOleada3;
 
+    public bool powerUpPausaEnemigos = false;
+
     public bool siguienteNivel = false;
 
     private void Awake()
