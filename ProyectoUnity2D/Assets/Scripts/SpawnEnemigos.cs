@@ -31,7 +31,7 @@ public class SpawnEnemigos : MonoBehaviour
 
     public void SpawnEnemies()
     {
-        if (Datos.instance.enemigosSpawneados < Datos.instance.nEnemigosOleada1)
+        if (Datos.instance.enemigosSpawneados < Datos.instance.nEnemigosOleada)
         {
             //posicion donde se crea, aleatoria
             Vector3 spawnPosition = new Vector3(Random.Range(xRangeLeft.position.x, xRangeRight.position.x), Random.Range(yRangeDown.position.y, yRangeUp.position.y), 0);
@@ -39,7 +39,7 @@ public class SpawnEnemigos : MonoBehaviour
             int numEnemigo = Random.Range(0, enemies.Length);
             GameObject enemie = Instantiate(enemies[numEnemigo], spawnPosition, gameObject.transform.rotation);
             Datos.instance.enemigosSpawneados++;
-            Debug.Log("Spawn");
+            //Debug.Log("Spawn");
         } 
     }
 

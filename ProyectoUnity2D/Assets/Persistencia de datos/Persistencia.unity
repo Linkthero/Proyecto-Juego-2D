@@ -149,8 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   datosJuego:
-    x: 0
-    y: 0
+    vidas: 0
 --- !u!4 &1224327164
 Transform:
   m_ObjectHideFlags: 0
@@ -465,6 +464,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5e8899146ef2c543b2e097c00774cb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMove
+  speed: 5
+  rb: {fileID: 0}
+  moveInput: {x: 0, y: 0}
   gameManager: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

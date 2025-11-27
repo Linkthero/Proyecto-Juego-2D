@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Datos : MonoBehaviour
 {
@@ -12,31 +13,69 @@ public class Datos : MonoBehaviour
 
     [Header("Enemigos")]
     [SerializeField] private TextMeshProUGUI txtEnemigos;
-    private int enemigosMuertos;
+    public int enemigosMuertos;
     public int enemigosSpawneados;
-    [SerializeField] public int nEnemigosOleada1;
-    [SerializeField] public int nEnemigosOleada2;
-    [SerializeField] public int nEnemigosOleada3;
+    [SerializeField] public int nEnemigosOleada;
+    //[SerializeField] public int nEnemigosOleada2;
+    //[SerializeField] public int nEnemigosOleada3;
 
     public bool powerUpPausaEnemigos = false;
     public bool powerUpDisparoCruz = false;
 
     public bool siguienteNivel = false;
 
+    public GameManager gameManager;
+
+
     private void Awake()
     {
-        siguienteNivel = false;
-        if(instance != null && instance != this)
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
         } else
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-            vidas = maxVidas;
-            nivel = 1;
+            //DontDestroyOnLoad(gameObject);
         }
+
+        //obtenemos nivel donde estamos
+        nivel = int.Parse(SceneManager.GetActiveScene().name.Substring(5));
+        txtEnemigos = GameObject.Find("txtEnemigos").GetComponent<TextMeshProUGUI>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+
+        //inicializamos vidas aqui pq en el start puede dar problemas 
+        // al inicializar el texto de vidas
+        //if (nivel == 1)
+        //{
+        //    vidas = maxVidas;
+        //}
+        //else
+        //{
+        //    RestaurarVidas();
+        //}
     }
+
+    public void Start()
+    {
+        siguienteNivel = false;
+        RestaurarVidas();
+    }
+
+    private void RestaurarVidas()
+    {
+        DatosJuego datosLeidos = gameManager.CargarDatos();
+        vidas = datosLeidos.vidas;
+        Debug.Log("Se restauran vidas: " + datosLeidos.vidas);
+    }
+
+    public void GuardarVidas()
+    {
+        DatosJuego datosAGuardar = new DatosJuego();
+        datosAGuardar.vidas = vidas;
+        gameManager.SaveGame(datosAGuardar);
+        Debug.Log("Se guardan vidas: " + datosAGuardar.vidas);
+    }
+
 
 
     public int GetVidas()
@@ -80,32 +119,54 @@ public class Datos : MonoBehaviour
         nivel = n;
     }
 
+    public void restaurarDatosAlMorir()
+    {
+        //enemigos 
+        enemigosMuertos = 0;
+        enemigosSpawneados = 0;
+
+        //powerUps
+        powerUpDisparoCruz = false;
+        powerUpPausaEnemigos = false;
+    }
+
     private void Update()
     {
-        if (nivel == 1)
+        // if (nivel == 1)
+        ////{
+        if (enemigosMuertos == nEnemigosOleada)
         {
-            if (enemigosMuertos == nEnemigosOleada1)
-            {
-                siguienteNivel = true;
-                nivel++;
-            }
+            siguienteNivel = true;
+            //nivel++;
         }
-        else if (nivel == 2)
+        //}
+        //else if (nivel == 2)
+        //{
+        //    if (enemigosMuertos == nEnemigosOleada2)
+        //    {
+        //        siguienteNivel = true;
+        //        nivel++;
+        //    }
+        //}
+        //else
+        //{
+        //    if (enemigosMuertos == nEnemigosOleada3)
+        //    {
+        //        siguienteNivel = true;
+        //        nivel++;
+        //    }
+        //    //fin de juego
+        //}
+    }
+
+    public void CargarNivel(int n)
+    {
+        if(n == 1)
         {
-            if (enemigosMuertos == nEnemigosOleada2)
-            {
-                siguienteNivel = true;
-                nivel++;
-            }
+            Datos.instance.vidas = maxVidas;
         }
-        else
-        {
-            if (enemigosMuertos == nEnemigosOleada3)
-            {
-                siguienteNivel = true;
-                nivel++;
-            }
-            //fin de juego
-        }
+        
+        Datos.instance.nivel = n;
+        SceneManager.LoadScene("Nivel " + Datos.instance.GetNivel().ToString());
     }
 }

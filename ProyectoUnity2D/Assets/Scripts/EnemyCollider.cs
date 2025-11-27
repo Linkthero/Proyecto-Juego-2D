@@ -51,10 +51,17 @@ public class EnemyCollider : MonoBehaviour
         {
             //vuelve a cargar el nivel pero con una vida menos
             yield return new WaitForSecondsRealtime(tiempoEspera);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
             //Reinicia algunos datos
-            Datos.instance.SetEnemigosMuertos(0);
+            Datos.instance.restaurarDatosAlMorir();
             inmune = false;
+            //Datos.instance.GuardarVidas();
+
+            //Carga la escena actual
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            
+            
+            
         }
 
         //Time.timeScale = 0;

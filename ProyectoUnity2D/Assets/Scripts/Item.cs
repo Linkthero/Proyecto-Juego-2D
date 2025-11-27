@@ -19,13 +19,6 @@ public class Item : MonoBehaviour
         
     }
 
-    public void restablecerPoderDisparoCruz()
-    {
-        Datos.instance.powerUpDisparoCruz = false;
-    }
-
-
-
     public void PoderVida(VidaJugador vidas)
     {
         vidas.SetVidas(Datos.instance.vidas + 1);

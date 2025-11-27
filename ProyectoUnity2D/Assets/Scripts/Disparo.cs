@@ -136,7 +136,7 @@ public class Disparo : MonoBehaviour
         Invoke(nameof(restaurarDisparoCruz), tiempoPowerUp);      // tiempo durante el que se aplica el power up
     }
 
-    void restaurarDisparo()
+    public void restaurarDisparo()
     {
         tiempoDisparo = tiempoDisparo * 3;
     }
@@ -145,6 +145,7 @@ public class Disparo : MonoBehaviour
     {
         Datos.instance.powerUpDisparoCruz = false;
     }
+
 
     private IEnumerator CoorDisparo(KeyCode k, KeyCode j = KeyCode.None)
     {

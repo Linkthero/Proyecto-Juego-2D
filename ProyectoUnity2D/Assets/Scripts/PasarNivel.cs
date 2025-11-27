@@ -23,7 +23,13 @@ public class PasarNivel : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("SiguienteNivel"))
         {
-            SceneManager.LoadScene("Nivel " + Datos.instance.GetNivel().ToString());
+            if(Datos.instance.enemigosMuertos == Datos.instance.nEnemigosOleada)
+            {
+                Datos.instance.GuardarVidas();
+                Datos.instance.nivel++;
+                SceneManager.LoadScene("Nivel " + Datos.instance.GetNivel().ToString());
+            }
+            
         }
     }
 
