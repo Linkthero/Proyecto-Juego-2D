@@ -58,10 +58,10 @@ public class Datos : MonoBehaviour
     public void Start()
     {
         siguienteNivel = false;
-        RestaurarVidas();
+        //RestaurarVidas();
     }
 
-    private void RestaurarVidas()
+    public void RestaurarVidas()
     {
         DatosJuego datosLeidos = gameManager.CargarDatos();
         vidas = datosLeidos.vidas;
@@ -121,6 +121,7 @@ public class Datos : MonoBehaviour
 
     public void restaurarDatosAlMorir()
     {
+        GuardarVidas();
         //enemigos 
         enemigosMuertos = 0;
         enemigosSpawneados = 0;
@@ -128,6 +129,7 @@ public class Datos : MonoBehaviour
         //powerUps
         powerUpDisparoCruz = false;
         powerUpPausaEnemigos = false;
+
     }
 
     private void Update()
@@ -139,6 +141,8 @@ public class Datos : MonoBehaviour
             siguienteNivel = true;
             //nivel++;
         }
+
+        
         //}
         //else if (nivel == 2)
         //{

@@ -59,9 +59,6 @@ public class EnemyCollider : MonoBehaviour
 
             //Carga la escena actual
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            
-            
-            
         }
 
         //Time.timeScale = 0;

@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(gameObject);
 
             //la primera vez q se ejecuta le asignamos el max vidas
+            //PrimeraPartida();
+            file = Application.persistentDataPath + "/GameData.json";
             PrimeraPartida();
         }
     }
@@ -30,13 +32,13 @@ public class GameManager : MonoBehaviour
         DatosJuego dj = new DatosJuego();
         dj.vidas = maxVidas;
         SaveGame(dj);
+        Debug.Log("Guardamos vidas)");
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        file = Application.persistentDataPath + "/GameData.json";
-        datosJuego = new DatosJuego();
+        
     }
 
     public void SaveGame(DatosJuego datosJuego)

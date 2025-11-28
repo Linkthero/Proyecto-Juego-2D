@@ -20,6 +20,7 @@ public class VidaJugador : MonoBehaviour
 
     private void Start()
     {
+        Datos.instance.RestaurarVidas();
         SetVidas(Datos.instance.GetVidas());    
     }
 
