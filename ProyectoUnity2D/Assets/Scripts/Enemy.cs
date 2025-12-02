@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] public int vidas = 1;
     public float speed;
     private float LastSpeed;
     public Rigidbody2D target;
@@ -52,16 +53,32 @@ public class Enemy : MonoBehaviour
             return;
         spriter.flipX = target.position.x < rb.position.x;
     }
+    public void recibirDaño()
+    {
+        
+        vidas--;
 
+        if (vidas <= 0)
+        {
+            DestroyEnemy();
+            Datos.instance.AumentaEnemigosMuertos();
+        }
+        else
+        {
+            animator.SetTrigger("Hit");
+        }           
+    }
+
+    // Destruye al enemigo tras un tiempo
     public void DestroyEnemy(float t = 0.16f)
     {
-        animator.Play("Hit");
-        Invoke(nameof(Destruir), t);
+        animator.SetTrigger("muerte");
+        //Invoke(nameof(Destruir), t);
     }
 
     private void Destruir()
     {
-        Datos.instance.AumentaEnemigosMuertos();
+
         Destroy(gameObject);
     }
 

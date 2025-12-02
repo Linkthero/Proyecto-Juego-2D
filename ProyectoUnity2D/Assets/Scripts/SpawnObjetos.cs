@@ -24,7 +24,6 @@ public class SpawnObjetos : MonoBehaviour
 
     void Start()
     {
-        repeatSpawnRate = (float)Random.Range(10, 15);
         //StartCoroutine(Example());
         InvokeRepeating("Spawn", timeSpawn, repeatSpawnRate);
     }

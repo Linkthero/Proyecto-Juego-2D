@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 4554396373073290097}
   - component: {fileID: 1549527171169522700}
   - component: {fileID: 7939232740445027374}
-  - component: {fileID: 1029863630936828469}
+  - component: {fileID: 4695888117821229017}
   m_Layer: 0
   m_Name: EnemigoDuende
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 1782705385, guid: d33598d781682e049a53a0a13104ef29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -104,7 +104,7 @@ Animator:
   m_GameObject: {fileID: 1374942257895614184}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 22100000, guid: 8d1d920724ffb8a409ce0e458dc4b7a9, type: 2}
+  m_Controller: {fileID: 9100000, guid: f36e7e49f729943439b32a5abc80258d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -180,7 +180,7 @@ CapsuleCollider2D:
   m_Offset: {x: 0.0034015775, y: 0}
   m_Size: {x: 0.6827942, y: 1.125}
   m_Direction: 0
---- !u!114 &1029863630936828469
+--- !u!114 &4695888117821229017
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -192,7 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c472af36c01482f4db9b5bf1f55def6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Enemy
-  speed: 3
+  vidas: 3
+  speed: 2
   target: {fileID: 0}
   animator: {fileID: 0}
   tiempoPowerUp: 5

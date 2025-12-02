@@ -16,7 +16,7 @@ public class Bala : MonoBehaviour
     [SerializeField] private AudioSource sonidoExplosion;
 
     [Header("Efectos")]
-    [SerializeField] private GameObject efectoImpacto;
+    [SerializeField] private GameObject efectoImpacto;      //Está comentadoo
     private Disparo disparo; //1 UP, 2 RIGHT, 3 DOWN, 4 LEFT
     private CircleCollider2D col;
 
@@ -41,22 +41,26 @@ public class Bala : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             col.enabled = false;
-            if (efectoImpacto != null)
-            {
-                Instantiate(efectoImpacto, collision.transform.position, Quaternion.identity);
-            }
-            if (sonidoExplosion != null)
-            {
-                sonidoExplosion.Play();
-            }
+            //if (efectoImpacto != null)
+            //{
+            //    Instantiate(efectoImpacto, collision.transform.position, Quaternion.identity);
+            //}
+            //if (sonidoExplosion != null)
+            //{
+            //    sonidoExplosion.Play();
+            //}
 
             //Datos.instance.AddPoints(collision.gameObject.GetComponent<EnemyMove>().puntos);
             //Datos.instance.MostrarPuntosDinamicos(collision.gameObject.GetComponent<EnemyMove>().puntos, collision.transform.position);
 
             //Destroy(collision.gameObject);
             //Datos.instance.AumentaEnemigosMuertos();
-            collision.GetComponent<Enemy>().DestroyEnemy();
-            //Destroy(gameObject, 0.1f);
+
+            
+            collision.GetComponent<Enemy>().recibirDaño();
+            
+                
+            Destroy(gameObject, 0.1f);
         }
     }
 }
