@@ -7,17 +7,6 @@ public class Item : MonoBehaviour
 {
 
     public Poder tipoPoder;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void PoderVida(VidaJugador vidas)
     {
@@ -39,19 +28,20 @@ public class Item : MonoBehaviour
             }
             else if(tipoPoder == Poder.Pausa)
             {
-                GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
-                foreach (var e in listaEnemigos)
-                {
-                    e.GetComponent<Enemy>().PowerUpPausa();
-                }
+                Datos.instance.PowerUpPausa();
+                //GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
+                //foreach (var e in listaEnemigos)
+                //{
+                //    e.GetComponent<Enemy>().PowerUpPausa();
+                //}
             }
             else if(tipoPoder == Poder.Bomba)
             {
                 GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
                 foreach (var e in listaEnemigos)
                 {
-                    e.GetComponent<Enemy>().DestroyEnemy(0.21f);
-                    e.GetComponent<Enemy>().animator.Play("explosion");
+                    e.GetComponent<Enemy>().animator.SetTrigger("Bomba");
+                    e.GetComponent<Enemy>().Destruir();
                 }
             }
             else if(tipoPoder == Poder.Vida)

@@ -21480,6 +21480,7 @@ MonoBehaviour:
   enemigosMuertos: 0
   enemigosSpawneados: 0
   nEnemigosOleada: 50
+  tiempoPowerUpPausa: 8
   powerUpPausaEnemigos: 0
   powerUpDisparoCruz: 0
   siguienteNivel: 0

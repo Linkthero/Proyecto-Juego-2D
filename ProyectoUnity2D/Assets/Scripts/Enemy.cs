@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     private float LastSpeed;
     public Rigidbody2D target;
 
-    bool isLive = true;
+    public bool isLive = true;
     private Rigidbody2D rb;
     private SpriteRenderer spriter;
     public Animator animator;
@@ -23,28 +23,31 @@ public class Enemy : MonoBehaviour
         spriter = GetComponent<SpriteRenderer>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        if (Datos.instance.powerUpPausaEnemigos)
-        {
-            speed = 0;
-        }
+        //if (Datos.instance.powerUpPausaEnemigos)
+        //{
+        //    speed = 0;
+        //}
     }
+
 
     private void FixedUpdate()
     {
         if (!isLive)
             return;
+
+        if (Datos.instance.powerUpPausaEnemigos)
+        {
+            speed = 0;
+        }
+        else
+        {
+            speed = LastSpeed;
+        }
+        
         Vector2 dirVec = target.position - rb.position;
         Vector2 nextVec = dirVec.normalized * speed *Time.fixedDeltaTime;
         rb.MovePosition(rb.position + nextVec);
         rb.linearVelocity = Vector2.zero;
-
-        if(Datos.instance.powerUpPausaEnemigos)
-        {
-            speed = 0;
-        } else
-        {
-            speed = LastSpeed;
-        }
     }
 
     private void LateUpdate()
@@ -60,8 +63,10 @@ public class Enemy : MonoBehaviour
 
         if (vidas <= 0)
         {
+            isLive = false;
+            speed = 0;
             DestroyEnemy();
-            Datos.instance.AumentaEnemigosMuertos();
+            
         }
         else
         {
@@ -70,27 +75,16 @@ public class Enemy : MonoBehaviour
     }
 
     // Destruye al enemigo tras un tiempo
-    public void DestroyEnemy(float t = 0.16f)
+    public void DestroyEnemy()
     {
         animator.SetTrigger("muerte");
         //Invoke(nameof(Destruir), t);
     }
 
-    private void Destruir()
+    public void Destruir()
     {
-
+        Datos.instance.AumentaEnemigosMuertos();
         Destroy(gameObject);
-    }
-
-    public void PowerUpPausa()
-    {
-        Datos.instance.powerUpPausaEnemigos = true;
-        Invoke(nameof(restaurar), tiempoPowerUp);
-    }
-
-    private void restaurar()
-    {
-        Datos.instance.powerUpPausaEnemigos = false;
     }
 
 }

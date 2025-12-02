@@ -19,6 +19,8 @@ public class Datos : MonoBehaviour
     //[SerializeField] public int nEnemigosOleada2;
     //[SerializeField] public int nEnemigosOleada3;
 
+    [Header("PowerUps")]
+    [SerializeField] public float tiempoPowerUpPausa;
     public bool powerUpPausaEnemigos = false;
     public bool powerUpDisparoCruz = false;
 
@@ -161,6 +163,16 @@ public class Datos : MonoBehaviour
         //    }
         //    //fin de juego
         //}
+    }
+    public void PowerUpPausa()
+    {
+        Datos.instance.powerUpPausaEnemigos = true;
+        Invoke(nameof(restaurar), tiempoPowerUpPausa);
+    }
+
+    private void restaurar()
+    {
+        Datos.instance.powerUpPausaEnemigos = false;
     }
 
     public void CargarNivel(int n)
