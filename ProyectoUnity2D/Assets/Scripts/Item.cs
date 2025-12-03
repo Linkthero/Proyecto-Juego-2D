@@ -10,7 +10,8 @@ public class Item : MonoBehaviour
 
     public void PoderVida(VidaJugador vidas)
     {
-        vidas.SetVidas(Datos.instance.vidas + 1);
+        Datos.instance.vidas++;
+        vidas.SetVidas(Datos.instance.vidas);
     }
 
 
@@ -41,7 +42,8 @@ public class Item : MonoBehaviour
                 foreach (var e in listaEnemigos)
                 {
                     e.GetComponent<Enemy>().animator.SetTrigger("Bomba");
-                    e.GetComponent<Enemy>().Destruir();
+                    e.GetComponent<Enemy>().isLive = false;
+                    //e.GetComponent<Enemy>().Destruir();       //ya se llama en la animacion
                 }
             }
             else if(tipoPoder == Poder.Vida)

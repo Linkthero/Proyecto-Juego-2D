@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3317455715908111115}
   - component: {fileID: 3979822793150162232}
   - component: {fileID: 8006536312594690592}
-  - component: {fileID: 8606462907244345753}
+  - component: {fileID: 5281637393925799405}
   m_Layer: 0
   m_Name: EnemigoSlime
   m_TagString: Enemy
@@ -181,7 +181,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &8606462907244345753
+--- !u!114 &5281637393925799405
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -190,12 +190,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3469209580825649445}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c472af36c01482f4db9b5bf1f55def6e, type: 3}
+  m_Script: {fileID: 11500000, guid: 7aadc23e80dc3164090b8b04a19364a6, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  m_EditorClassIdentifier: Assembly-CSharp::EnemigoSlime
   vidas: 2
-  speed: 2
+  speed: 1
   target: {fileID: 0}
+  isLive: 1
   animator: {fileID: 0}
   tiempoPowerUp: 5
 --- !u!1 &8558007073105945490

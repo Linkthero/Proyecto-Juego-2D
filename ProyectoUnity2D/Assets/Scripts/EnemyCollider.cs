@@ -40,6 +40,7 @@ public class EnemyCollider : MonoBehaviour
         //sonidoMuerte.Play();
         //pa.Muerte();
         
+        GameObject.FindFirstObjectByType<Fade>().FadeOut();
         if (Datos.instance.vidas <= 0)
         {
             //carga pantalla de fin de juego   

@@ -43,8 +43,8 @@ public class Datos : MonoBehaviour
         //obtenemos nivel donde estamos
         nivel = int.Parse(SceneManager.GetActiveScene().name.Substring(5));
         txtEnemigos = GameObject.Find("txtEnemigos").GetComponent<TextMeshProUGUI>();
-        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-
+        //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+        gameManager = GameManager.instance;
         //inicializamos vidas aqui pq en el start puede dar problemas 
         // al inicializar el texto de vidas
         //if (nivel == 1)
@@ -144,25 +144,6 @@ public class Datos : MonoBehaviour
             //nivel++;
         }
 
-        
-        //}
-        //else if (nivel == 2)
-        //{
-        //    if (enemigosMuertos == nEnemigosOleada2)
-        //    {
-        //        siguienteNivel = true;
-        //        nivel++;
-        //    }
-        //}
-        //else
-        //{
-        //    if (enemigosMuertos == nEnemigosOleada3)
-        //    {
-        //        siguienteNivel = true;
-        //        nivel++;
-        //    }
-        //    //fin de juego
-        //}
     }
     public void PowerUpPausa()
     {
@@ -175,13 +156,9 @@ public class Datos : MonoBehaviour
         Datos.instance.powerUpPausaEnemigos = false;
     }
 
+    //Carga el nivel indicado
     public void CargarNivel(int n)
     {
-        if(n == 1)
-        {
-            Datos.instance.vidas = maxVidas;
-        }
-        
         Datos.instance.nivel = n;
         SceneManager.LoadScene("Nivel " + Datos.instance.GetNivel().ToString());
     }

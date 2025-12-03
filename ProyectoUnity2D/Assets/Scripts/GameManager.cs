@@ -27,7 +27,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    private void PrimeraPartida()
+    public void PrimeraPartida()
     {
         DatosJuego dj = new DatosJuego();
         dj.vidas = maxVidas;

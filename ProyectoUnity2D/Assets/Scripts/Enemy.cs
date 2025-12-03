@@ -4,20 +4,22 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] public int vidas = 1;
     public float speed;
-    private float LastSpeed;
+    protected float LastSpeed;
     public Rigidbody2D target;
 
     public bool isLive = true;
-    private Rigidbody2D rb;
+    public bool isHitting = false;
+    protected Rigidbody2D rb;
     private SpriteRenderer spriter;
     public Animator animator;
+
+
 
     public float tiempoPowerUp;
 
 
-    private void Start()
+    protected void Start()
     {
-        
         LastSpeed = speed;
         rb = GetComponent<Rigidbody2D>();
         spriter = GetComponent<SpriteRenderer>();
@@ -30,12 +32,12 @@ public class Enemy : MonoBehaviour
     }
 
 
-    private void FixedUpdate()
+    protected void FixedUpdate()
     {
         if (!isLive)
             return;
 
-        if (Datos.instance.powerUpPausaEnemigos)
+        if (Datos.instance.powerUpPausaEnemigos || isHitting)
         {
             speed = 0;
         }
