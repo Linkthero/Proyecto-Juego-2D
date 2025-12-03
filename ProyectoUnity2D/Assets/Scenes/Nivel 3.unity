@@ -1296,7 +1296,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 2.3940125, y: -1.595993}
+  m_AnchoredPosition: {x: 2.394043, y: -1.5960083}
   m_SizeDelta: {x: 23.94, y: 19.152}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &479942211
@@ -21693,7 +21693,7 @@ MonoBehaviour:
   enemigosMuertos: 0
   enemigosSpawneados: 0
   nEnemigosOleada: 5
-  tiempoPowerUpPausa: 8
+  tiempoPowerUpPausa: 5
   powerUpPausaEnemigos: 0
   powerUpDisparoCruz: 0
   siguienteNivel: 0

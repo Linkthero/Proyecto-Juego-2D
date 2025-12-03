@@ -7,7 +7,7 @@ public class EnemigoSlime : Enemy
     private new void Start()
     {
         base.Start();
-        int inicio = UnityEngine.Random.Range(2, 5);
+        int inicio = UnityEngine.Random.Range(10, 15);
         int siguiente = UnityEngine.Random.Range(5, 15);
 
         InvokeRepeating("Pinchos", inicio, siguiente);
