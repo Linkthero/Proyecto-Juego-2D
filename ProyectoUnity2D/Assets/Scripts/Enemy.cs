@@ -60,7 +60,7 @@ public class Enemy : MonoBehaviour
     }
     public void recibirDaño()
     {
-        
+        SFXManager.instance.PlayEnemigoHurt();
         vidas--;
 
         if (vidas <= 0)

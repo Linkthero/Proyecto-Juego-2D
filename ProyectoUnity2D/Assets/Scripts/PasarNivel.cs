@@ -19,6 +19,11 @@ public class PasarNivel : MonoBehaviour
     {
         if (Datos.instance.siguienteNivel)
         {
+            if (!SFXManager.instance.playedSiguienteNivel)
+            {
+                SFXManager.instance.PlaySiguienteNivel();
+                SFXManager.instance.playedSiguienteNivel = true;
+            }
             caminoSiguienteNivel.gameObject.SetActive(true);
         }
 

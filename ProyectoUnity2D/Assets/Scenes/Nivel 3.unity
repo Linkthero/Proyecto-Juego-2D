@@ -21692,7 +21692,7 @@ MonoBehaviour:
   txtEnemigos: {fileID: 0}
   enemigosMuertos: 0
   enemigosSpawneados: 0
-  nEnemigosOleada: 5
+  nEnemigosOleada: 50
   tiempoPowerUpPausa: 5
   powerUpPausaEnemigos: 0
   powerUpDisparoCruz: 0

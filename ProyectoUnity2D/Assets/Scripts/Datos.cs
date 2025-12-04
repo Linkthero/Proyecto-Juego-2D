@@ -40,11 +40,18 @@ public class Datos : MonoBehaviour
             //DontDestroyOnLoad(gameObject);
         }
 
-        //obtenemos nivel donde estamos
-        nivel = int.Parse(SceneManager.GetActiveScene().name.Substring(5));
-        txtEnemigos = GameObject.Find("txtEnemigos").GetComponent<TextMeshProUGUI>();
-        //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        gameManager = GameManager.instance;
+        if (SceneManager.GetActiveScene().name != "FinJuego" && SceneManager.GetActiveScene().name != "Nivel 4")
+        {
+
+            //obtenemos nivel donde estamos
+            nivel = int.Parse(SceneManager.GetActiveScene().name.Substring(5));
+            txtEnemigos = GameObject.Find("txtEnemigos").GetComponent<TextMeshProUGUI>();
+            //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
+            gameManager = GameManager.instance;
+        }
+        SFXManager.instance.playedSiguienteNivel = false;
+        AudioManager.instance.CambiaClip();
+        AudioManager.instance.Play();
         //inicializamos vidas aqui pq en el start puede dar problemas 
         // al inicializar el texto de vidas
         //if (nivel == 1)

@@ -677,6 +677,160 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 913741833}
   m_CullTransparentMesh: 1
+--- !u!1 &929949274
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 929949277}
+  - component: {fileID: 929949276}
+  - component: {fileID: 929949275}
+  m_Layer: 0
+  m_Name: SFXManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &929949275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929949274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9706d59316946f478c7909dd13b9a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SFXManager
+  playerDeath: {fileID: 8300000, guid: a6c55f5585a9ae449af92856987084c6, type: 3}
+  enemyHurt:
+  - {fileID: 8300000, guid: aaf039238e940c041b78a4d4cfe89ef4, type: 3}
+  - {fileID: 8300000, guid: 611918898a16fb6439b3eea9a593fe42, type: 3}
+  - {fileID: 8300000, guid: f82b12ffcec071e428a2b1b100a5bf80, type: 3}
+  shot: {fileID: 8300000, guid: 120ea43b1f946ec43b1e2847c82f02e8, type: 3}
+  explosion: {fileID: 8300000, guid: 880b5c7c420e6744d81fa736deeb5f71, type: 3}
+  pausa: {fileID: 8300000, guid: cd281a35d8e005a44b62e396447345c7, type: 3}
+  vida: {fileID: 8300000, guid: b94b8bc301339084dae40d89cfd1d76b, type: 3}
+  item: {fileID: 8300000, guid: f9d96bf58ea495c4a8c817dc1c74a61a, type: 3}
+  siguienteNivel: {fileID: 8300000, guid: 3d168890609e1a448a4664d1e9f44a98, type: 3}
+  playedSiguienteNivel: 0
+--- !u!82 &929949276
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929949274}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 41058a5f11fa05c4484c2d729f8b77a7, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &929949277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929949274}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 895.9374, y: 407.40222, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1056877286
 GameObject:
   m_ObjectHideFlags: 0
@@ -823,6 +977,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1200644724}
   - component: {fileID: 1200644723}
+  - component: {fileID: 1200644725}
   m_Layer: 0
   m_Name: MusicManager
   m_TagString: Untagged
@@ -843,7 +998,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -942,6 +1097,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1200644725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1200644722}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff94b3da6703b5f44accb684596987cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  audioSource: {fileID: 1200644723}
+  musicaMenuPrincipal: {fileID: 8300000, guid: f4e2ef7296b4bcb4d90b242b913d1516, type: 3}
+  musicaNivel1: {fileID: 8300000, guid: 35967e8a4dfb1664e9b066939272c0a4, type: 3}
+  musicaNivel2: {fileID: 8300000, guid: 033766cc31c97904bae4404b8a079544, type: 3}
+  musicaNivel3: {fileID: 8300000, guid: fc5af015011ea3745b7f78ea1dd1049f, type: 3}
+  musicaMenuFinal: {fileID: 8300000, guid: 5732075e92587ba4bb47518d8a6cabf8, type: 3}
+  musicaFinJuego: {fileID: 8300000, guid: 7e33e49aeff2aef4882b33ce83ca618e, type: 3}
 --- !u!1 &1327357846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1438,3 +1612,4 @@ SceneRoots:
   - {fileID: 1327357849}
   - {fileID: 326641811}
   - {fileID: 1200644724}
+  - {fileID: 929949277}

@@ -149,6 +149,7 @@ public class Disparo : MonoBehaviour
 
     private IEnumerator CoorDisparo(KeyCode k, KeyCode j = KeyCode.None)
     {
+        SFXManager.instance.PlayDisparo();
         yield return new WaitForSecondsRealtime(0.2f);
         if (k == KeyCode.RightArrow && j == KeyCode.UpArrow) //DISPAROS DIAGONALES
         {
@@ -184,6 +185,7 @@ public class Disparo : MonoBehaviour
 
     private IEnumerator DisparoTodasDir()
     {
+        SFXManager.instance.PlayDisparo();
         Instantiate(prefabBala, puntoDisparoDerUp.position, puntoDisparoDerUp.rotation);
         Instantiate(prefabBala, puntoDisparoDerDown.position, puntoDisparoDerDown.rotation);
         Instantiate(prefabBala, puntoDisparoIzqDown.position, puntoDisparoIzqDown.rotation);

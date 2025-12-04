@@ -27,6 +27,8 @@ public class EnemyCollider : MonoBehaviour
         {
             if (!inmune)
                 StartCoroutine(PararYReiniciar());
+                SFXManager.instance.PlayPlayerHurt();
+                GetComponent<CapsuleCollider2D>().enabled = false;
         }
     }
 

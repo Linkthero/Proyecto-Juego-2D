@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioClip musicaNivel3;
     [SerializeField] AudioClip musicaMenuFinal;
     [SerializeField] AudioClip musicaFinJuego;
+    private float volumenMax;
 
     private void Awake()
     {
@@ -23,39 +25,61 @@ public class AudioManager : MonoBehaviour
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
+
+        volumenMax = audioSource.volume;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Primero suena la cancion de inicio
         audioSource.clip = musicaMenuPrincipal;
+        audioSource.volume = 0;
         audioSource.Play();
+        StartCoroutine(FadeIn(1f));
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Datos.instance != null)
+        
+    }
+
+    public void CambiaClip()
+    {
+        string nombreEscenaActiva = SceneManager.GetActiveScene().name;
+
+        if (nombreEscenaActiva == "Nivel 1")
         {
-            switch(Datos.instance.nivel)
-            {
-                case 1:
-                    audioSource.clip = musicaNivel1;
-                    break;
-                case 2:
-                    audioSource.clip = musicaNivel2;
-                    break;
-                case 3:
-                    audioSource.clip = musicaNivel3;
-                    break;
-            }
+            audioSource.clip = musicaNivel1;
+        }
+        else if (nombreEscenaActiva == "Nivel 2")
+        {
+            audioSource.clip = musicaNivel2;
+        }
+        else if (nombreEscenaActiva == "Nivel 3")
+        {
+            audioSource.clip = musicaNivel3;
+        }
+        else if (nombreEscenaActiva == "Nivel 4")
+        {
+            audioSource.clip = musicaMenuFinal;
+        }
+        else if (nombreEscenaActiva == "FinJuego")
+        {
+            audioSource.clip = musicaFinJuego;
         }
     }
 
-    IEnumerator FadeIn(float duracion)
+    public void Play()
     {
         audioSource.Play();
+    }
+
+    public IEnumerator FadeIn(float duracion)
+    {
+        //audioSource.Play();
         audioSource.volume = 0;
-        float startVolume = 1.0f; // Ajustar según volumen deseado
+        float startVolume = volumenMax;
         while (audioSource.volume < startVolume)
         {
             audioSource.volume += startVolume * Time.deltaTime / duracion;
@@ -63,7 +87,7 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    IEnumerator FadeOut(float duracion)
+    public IEnumerator FadeOut(float duracion)
     {
         float startVolume = audioSource.volume;
 

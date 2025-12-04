@@ -21,14 +21,17 @@ public class Item : MonoBehaviour
         {
             if(tipoPoder == Poder.DisparoContinuo)
             {
+                SFXManager.instance.PlayItem();
                 collision.GetComponent<Disparo>().PowerUp();
             }
             else if(tipoPoder == Poder.DisparoCruz)
             {
+                SFXManager.instance.PlayItem();
                 collision.GetComponent<Disparo>().PowerUpDisparoCruz();
             }
             else if(tipoPoder == Poder.Pausa)
             {
+                SFXManager.instance.PlayPausa();
                 Datos.instance.PowerUpPausa();
                 //GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
                 //foreach (var e in listaEnemigos)
@@ -38,6 +41,7 @@ public class Item : MonoBehaviour
             }
             else if(tipoPoder == Poder.Bomba)
             {
+                SFXManager.instance.PlayExplosion();
                 GameObject[] listaEnemigos = GameObject.FindGameObjectsWithTag("Enemy");
                 foreach (var e in listaEnemigos)
                 {
@@ -48,6 +52,7 @@ public class Item : MonoBehaviour
             }
             else if(tipoPoder == Poder.Vida)
             {
+                SFXManager.instance.PlayVida();
                 PoderVida(collision.GetComponent<VidaJugador>());
             }
             Destroy(gameObject);

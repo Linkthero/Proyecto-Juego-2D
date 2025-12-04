@@ -19,6 +19,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     {
         fade.gameObject.active = true;
         StartCoroutine(fadeOutDelay());
+        StartCoroutine(AudioManager.instance.FadeOut(1f));
     }
 
      IEnumerator fadeOutDelay()

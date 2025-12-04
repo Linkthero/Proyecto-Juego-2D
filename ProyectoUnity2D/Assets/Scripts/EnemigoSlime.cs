@@ -34,14 +34,26 @@ public class EnemigoSlime : Enemy
 
     }
 
+    public void recibirDaño()
+    {
+        if(pinchos)
+        {
+            base.recibirDaño();
+        }
+    }
+
     private void Pinchos()
     {
         pinchos = true;
         animator.SetTrigger("Pinchos");
+        rb.constraints = RigidbodyConstraints2D.FreezePosition | RigidbodyConstraints2D.FreezeRotation; //congela posicion
     }
 
     public void setPinchosFalse()
     {
         pinchos = false;
+        //vuelve a poner los constrains normales
+        rb.constraints = RigidbodyConstraints2D.None;
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }

@@ -8,11 +8,13 @@ public class Fade : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        StartCoroutine(AudioManager.instance.FadeIn(1f));
     }
 
     public void FadeOut()
     {
         animator.Play("FadeOut");
+        StartCoroutine(AudioManager.instance.FadeOut(1f));
     }
 
 }
