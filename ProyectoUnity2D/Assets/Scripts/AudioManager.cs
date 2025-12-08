@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager instance;
-    [SerializeField] AudioSource audioSource;
+    [SerializeField] public AudioSource audioSource;
     [SerializeField] AudioClip musicaMenuPrincipal;
     [SerializeField] AudioClip musicaNivel1;
     [SerializeField] AudioClip musicaNivel2;
     [SerializeField] AudioClip musicaNivel3;
     [SerializeField] AudioClip musicaMenuFinal;
     [SerializeField] AudioClip musicaFinJuego;
-    private float volumenMax;
+    public float volumenMax;
 
     private void Awake()
     {
@@ -38,11 +38,6 @@ public class AudioManager : MonoBehaviour
         StartCoroutine(FadeIn(1f));
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void CambiaClip()
     {
@@ -99,4 +94,6 @@ public class AudioManager : MonoBehaviour
 
         audioSource.Stop();
     }
+
+
 }

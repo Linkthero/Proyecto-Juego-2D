@@ -3,7 +3,7 @@ using UnityEngine;
 public class SFXManager : MonoBehaviour
 {
     public static SFXManager instance;
-    private AudioSource audioSource;
+    public AudioSource audioSource;
     [SerializeField] private AudioClip playerDeath;
     [SerializeField] private AudioClip[] enemyHurt;
     [SerializeField] private AudioClip shot;
@@ -26,21 +26,11 @@ public class SFXManager : MonoBehaviour
         else
         {
             instance = this;
+            audioSource = GetComponent<AudioSource>();
             DontDestroyOnLoad(gameObject);
         }
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void PlayPlayerHurt()
     {
@@ -82,4 +72,5 @@ public class SFXManager : MonoBehaviour
     {
         audioSource.PlayOneShot(siguienteNivel);
     }
+
 }
