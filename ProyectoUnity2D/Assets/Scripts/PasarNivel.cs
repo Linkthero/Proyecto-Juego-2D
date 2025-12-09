@@ -6,7 +6,7 @@ public class PasarNivel : MonoBehaviour
 {
     [SerializeField] private GameObject caminoSiguienteNivel;
     [SerializeField] private Fade fade;
-    [SerializeField] private CapsuleCollider2D colPlayer;
+    [SerializeField] public CapsuleCollider2D colPlayer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -64,10 +64,20 @@ public class PasarNivel : MonoBehaviour
 
     public IEnumerator fadeOutDelay()
     {
+        fade.gameObject.SetActive(true);
         colPlayer.enabled = false;
         fade.FadeOut();
         yield return new WaitForSeconds(1f);
         SceneManager.LoadScene("Nivel " + Datos.instance.GetNivel().ToString());
+    }
+
+    public IEnumerator fadeOutDelayNivel(string nivel)
+    {
+        fade.gameObject.SetActive(true);
+        colPlayer.enabled = false;
+        fade.FadeOut();
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(nivel);
     }
 
 

@@ -741,8 +741,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1750376309}
-        m_TargetAssemblyTypeName: NewMonoBehaviourScript, Assembly-CSharp
-        m_MethodName: Salir
+        m_TargetAssemblyTypeName: MenuPrincipal, Assembly-CSharp
+        m_MethodName: VolverAlMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -950,6 +950,7 @@ MonoBehaviour:
   powerUpDisparoCruz: 0
   siguienteNivel: 0
   gameManager: {fileID: 0}
+  panelPausa: {fileID: 0}
 --- !u!4 &1780952525
 Transform:
   m_ObjectHideFlags: 0

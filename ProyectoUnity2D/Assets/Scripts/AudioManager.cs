@@ -33,8 +33,8 @@ public class AudioManager : MonoBehaviour
     {
         //Primero suena la cancion de inicio
         audioSource.clip = musicaMenuPrincipal;
-        audioSource.volume = 0;
-        audioSource.Play();
+        //audioSource.volume = 0;
+        //audioSource.Play();
         StartCoroutine(FadeIn(1f));
     }
 
@@ -62,6 +62,9 @@ public class AudioManager : MonoBehaviour
         else if (nombreEscenaActiva == "FinJuego")
         {
             audioSource.clip = musicaFinJuego;
+        } else if( nombreEscenaActiva == "MenuInicial")
+        {
+            audioSource.clip = musicaMenuPrincipal;
         }
     }
 

@@ -28,6 +28,10 @@ public class Datos : MonoBehaviour
 
     public GameManager gameManager;
 
+    [Header("Pausa")]
+    [SerializeField] GameObject panelPausa;
+    public bool juegoPausado = false;
+
 
     private void Awake()
     {
@@ -45,7 +49,8 @@ public class Datos : MonoBehaviour
 
             //obtenemos nivel donde estamos
             nivel = int.Parse(SceneManager.GetActiveScene().name.Substring(5));
-            txtEnemigos = GameObject.Find("txtEnemigos").GetComponent<TextMeshProUGUI>();
+            if(txtEnemigos == null)
+                txtEnemigos = GameObject.Find("txtEnemigos").GetComponent<TextMeshProUGUI>();
             //gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
             gameManager = GameManager.instance;
         }
@@ -128,6 +133,11 @@ public class Datos : MonoBehaviour
         nivel = n;
     }
 
+    public void EsconderPanelPausa()
+    {
+        panelPausa.SetActive(false);
+    }
+
     public void restaurarDatosAlMorir()
     {
         GuardarVidas();
@@ -149,6 +159,22 @@ public class Datos : MonoBehaviour
         {
             siguienteNivel = true;
             //nivel++;
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (!juegoPausado)
+            {
+                Time.timeScale = 0;  //pausa
+                panelPausa.SetActive(true);
+                juegoPausado = true;
+            } else
+            {
+                Time.timeScale = 1;  //quitar pausa
+                panelPausa.SetActive(false);
+                juegoPausado = false;
+            }
+            
         }
 
     }

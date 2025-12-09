@@ -12,6 +12,7 @@ public class EnemyCollider : MonoBehaviour
     [Header("Sonidos")]
     [SerializeField] private AudioSource sonidoMuerte;
     private bool inmune = false;
+    [SerializeField] private Fade fade;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,8 +42,8 @@ public class EnemyCollider : MonoBehaviour
         playerLifes.PierdeVida();
         //sonidoMuerte.Play();
         //pa.Muerte();
-        
-        GameObject.FindFirstObjectByType<Fade>().FadeOut();
+        fade.gameObject.SetActive(true);
+        fade.FadeOut();
         if (Datos.instance.vidas <= 0)
         {
             //carga pantalla de fin de juego   

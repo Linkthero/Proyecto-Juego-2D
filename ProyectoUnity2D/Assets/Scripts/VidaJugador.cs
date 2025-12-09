@@ -12,12 +12,6 @@ public class VidaJugador : MonoBehaviour
     public int vidasActuales;
 
 
-    private void Awake()
-    {
-        //maxVidas = Mathf.Clamp(maxVidas, 0, corazones.Count);
-        //SetVidas(Datos.instance.GetVidas());
-    }
-
     private void Start()
     {
         Datos.instance.RestaurarVidas();

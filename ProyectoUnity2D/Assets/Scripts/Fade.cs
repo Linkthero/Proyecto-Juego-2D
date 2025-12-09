@@ -8,7 +8,13 @@ public class Fade : MonoBehaviour
     void Start()
     {
         animator = GetComponent<Animator>();
+        Invoke(nameof(desactivarFade), 1f);
         StartCoroutine(AudioManager.instance.FadeIn(1f));
+    }
+
+    private void desactivarFade()
+    {
+        gameObject.SetActive(false);
     }
 
     public void FadeOut()

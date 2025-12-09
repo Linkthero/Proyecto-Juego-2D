@@ -302,6 +302,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6744618383503622377, guid: 903194986894ab84c86bb75d9088b1d8, type: 3}
+      propertyPath: fade
+      value: 
+      objectReference: {fileID: 479942211}
     - target: {fileID: 6992797421570289466, guid: 903194986894ab84c86bb75d9088b1d8, type: 3}
       propertyPath: m_SortingOrder
       value: 2
@@ -1169,7 +1173,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &445973426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21689,7 +21693,7 @@ MonoBehaviour:
   nivel: 0
   maxVidas: 3
   vidas: 0
-  txtEnemigos: {fileID: 0}
+  txtEnemigos: {fileID: 411847182}
   enemigosMuertos: 0
   enemigosSpawneados: 0
   nEnemigosOleada: 50
@@ -21698,6 +21702,8 @@ MonoBehaviour:
   powerUpDisparoCruz: 0
   siguienteNivel: 0
   gameManager: {fileID: 0}
+  panelPausa: {fileID: 0}
+  juegoPausado: 0
 --- !u!4 &1167027636
 Transform:
   m_ObjectHideFlags: 0
