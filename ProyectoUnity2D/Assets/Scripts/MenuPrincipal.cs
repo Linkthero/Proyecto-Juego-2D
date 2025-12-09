@@ -72,5 +72,10 @@ public class MenuPrincipal : MonoBehaviour
     {
         float v = panelOpciones.transform.GetChild(0).GetComponent<Slider>().value;      //asignamos volumen sfx
         SFXManager.instance.audioSource.volume = v;
+        if(!SFXManager.instance.audioSource.isPlaying)
+        {
+            SFXManager.instance.PlayItem(); //audio de prueba
+        }
+        
     }
 }
