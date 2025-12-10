@@ -34,7 +34,7 @@ public class MenuPrincipal : MonoBehaviour
     }
     public void Jugar()
     {
-        fade.gameObject.active = true;
+        fade.gameObject.SetActive(true);
         StartCoroutine(fadeOutDelay());
         if(GameManager.instance != null) {
             GameManager.instance.PrimeraPartida();
@@ -60,12 +60,12 @@ public class MenuPrincipal : MonoBehaviour
     IEnumerator fadeIn()
     {
         yield return new WaitForSeconds(1f);
-        fade.gameObject.active = false;
+        fade.gameObject.SetActive(false);
     }
 
     public void Reintentar()
     {
-        fade.gameObject.active = true;
+        fade.gameObject.SetActive(true);
         GameManager.instance.PrimeraPartida();
         StartCoroutine(fadeOutDelay());
     }

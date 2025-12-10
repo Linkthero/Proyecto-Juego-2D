@@ -115,7 +115,7 @@ public class Datos : MonoBehaviour
     public void AumentaEnemigosMuertos()
     {
         enemigosMuertos++;
-        txtEnemigos.text = enemigosMuertos.ToString();
+        txtEnemigos.text = "x " + enemigosMuertos.ToString();
     }
 
     public int GetEnemigosDerrotados()

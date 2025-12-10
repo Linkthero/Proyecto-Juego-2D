@@ -7,8 +7,8 @@ public class EnemigoSlime : Enemy
     private new void Start()
     {
         base.Start();
-        int inicio = UnityEngine.Random.Range(10, 15);
-        int siguiente = UnityEngine.Random.Range(5, 15);
+        int inicio = UnityEngine.Random.Range(5, 15);
+        int siguiente = UnityEngine.Random.Range(10, 15);
 
         InvokeRepeating("Pinchos", inicio, siguiente);
     }
@@ -34,13 +34,13 @@ public class EnemigoSlime : Enemy
 
     }
 
-    public void recibirDaño()
-    {
-        if(pinchos)
-        {
-            base.recibirDaño();
-        }
-    }
+    //public void recibirDaño()
+    //{
+    //    if(pinchos)
+    //    {
+    //        base.recibirDaño();
+    //    }
+    //}
 
     private void Pinchos()
     {
@@ -55,5 +55,10 @@ public class EnemigoSlime : Enemy
         //vuelve a poner los constrains normales
         rb.constraints = RigidbodyConstraints2D.None;
         rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    public bool GetPinchos()
+    {
+        return pinchos;
     }
 }

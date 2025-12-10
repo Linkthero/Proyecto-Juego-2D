@@ -56,10 +56,17 @@ public class Bala : MonoBehaviour
             //Destroy(collision.gameObject);
             //Datos.instance.AumentaEnemigosMuertos();
 
-            
-            collision.GetComponent<Enemy>().recibirDaño();
-            
-                
+            EnemigoSlime enemigo = collision.GetComponent<EnemigoSlime>();
+            if (enemigo != null)
+            {
+                if (!enemigo.GetPinchos())
+                {
+                    enemigo.recibirDaño();
+                }
+            } else
+            {
+                collision.GetComponent<Enemy>().recibirDaño();
+            }
             Destroy(gameObject, 0.1f);
         }
     }
